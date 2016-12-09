@@ -1,0 +1,16 @@
+= Play =
+
+Servers pickled.netrek.org and continuum.us.netrek.org are open for play.  Download a client and start now.
+
+= Structured Play =
+
+Regular [[Clue Game]], see
+http://groups.google.com/group/netrek-clue-games/ for the latest announcement.
+
+= Development =
+
+Daily discussion in #netrek on Freenode, with other discussion on [[Mailing Lists]].
+
+= Wiki =
+
+Maintenance and translation.

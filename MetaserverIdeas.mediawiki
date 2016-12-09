@@ -1,0 +1,27 @@
+==lobby==
+it has been suggested that the metaservers be rewritten to be a modern &quot;lobby&quot; system where players can chat and do other stuff.
+
+* Does not require metaserver rewrite, but does require client changes.  See GGZ Gaming Zone. --[[User:Quozl|Quozl]]
+
+==Suggestions by phadthai from netrek-dev 06-Dec-2006== 
+If I did have the time (and approbation), what I would personally do is rewrite the metaserver code and protocol and adapt vanilla and clients to use it. Of course, this also assumes that everyone want to take the trouble to upgrade
+* Flags/fields would be added as necessary so that bots be marked as such. The server comment field would also be honored. Additional server states and flags could also be implemented. The protocol would be versionned for future updates and backwards compatibility.
+* UDP updates would be replaced by server to metaserver update requests using TCP only (potentially with DSA or HMAC-SHA-80 for authentication and perhaps optionally AES-128 for content blocks + embedded checksums), and metaservers would no longer connect to any server. This would be allowed to export in most countries today in open-source software with the proper disclaimer.
+* A server for which no updates are received within a configurable time frame would immediately be de-listed until the next update, so would servers exceeding the specified update rate, for a specified time penalty.
+* Origin IP address of update requests could also be more relied upon than it currently is with UDP updates (for which all kinds of exploits are possible).
+* It would be possible for new server admins to be granted the right to list a server and be assigned a key to do so. This would be configurable so that a metaserver could instead decide to be totally open as they traditionally were (actually, with RSA or DSA the server admin would most probably provide its public key part to the metaserver admin along with the request).
+==metaserver fields== 
+//Before using this information, check it against the source code of the metaserver. Changes may be made to the source code without the changes being made here.//
+Fields: version, address, type, port, observe, players, free, t-mode, rsa, gamefull, comment are the metaserver fields.
+version is bronco, sturgeon, hockey, etc,
+address is the server ip,
+type is inl mode flag (?)
+port is player port, observe is observer port,
+players is number of active slots, free is number of free slots
+t-mode = y or n, rsa = y or n,
+gamefull = y or n (signifies wait queue), comment is a textual comment field.
+
+== 2006 Metaserver status notes== 
+19-Dec-2006, Carlos announced on netrek-dev that metaserver2 code was largely synced with metaserver.us code, except for the policy patches. This should mean that both are using the same method for player counts.
+From netrek-dev 06-dec-2006: 
+* before a recent fix from James, the metaservers used to connect via TCP to the servers whenever no UDP packet from it was received for a little while, and it counted robots as players. Now UDP-reporting capable servers should no longer get connected to by the main metaserver.

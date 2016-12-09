@@ -1,0 +1,18 @@
+How to install a Netrek client on Debian GNU/Linux or Ubuntu.
+
+= Ubuntu =
+
+* ensure the ''Universe'' repository is enabled for your system, using ''Software Sources'' in the ''System -&gt; Administration'' menu,
+* start the ''Synaptic Package Manager'' in the ''System -&gt; Administration'' menu,
+* update the package list, then search for and install the ''netrek-client-cow'' package, (alternatively use the shell commands: ''sudo aptitude update'' then ''sudo aptitude install netrek-client-cow'')
+* from the ''Applications -&gt; Games'' menu select ''Netrek''
+
+= Debian =
+
+== Add Sources ==
+
+* install the package:
+  aptitude install netrek-client-cow
+* start it from menus, or run it manually, for example:
+  netrek-client-cow
+* the metaserver list window should appear, showing what servers are active.

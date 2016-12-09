@@ -1,0 +1,647 @@
+Public Netrek Servers, through Jan 1 1994
+By Andy Mc'Fadden (fadden@catapent.com)
+
+Revised: 09-May-94
+
+This is an attempt to list some basic information about EVERY public Netrek server that ever was. My goal is to list the people who set them up and get a rough idea of when the servers were running.
+
+Sometimes Netrek servers go through several names. When possible, all of the names are listed, in reverse chronological order. In any event, they're sorted by the most recent name.
+
+Sometimes the same host will have more than one server running at once, or will alternate different days of the week. This is not dealt with in a very clean way. Also, sometimes the people who set up the servers leave and somebody else takes over maintenance, but I'm not going to try to track those.
+
+The dates for most of these are based on the earliest appearance of the server in Tom Holub's server FAQ posting (thanks go to Sam Shen and Neil Cook for sending me about half a dozen each; Sam gets gthe prize for the earliest known FAQ posting). The earliest date that the server is listed on an FAQ sheet was used as the server inception date; similarly, the first date that the server is listed as &quot;down&quot; is used as the retirement date. Since I don't think I have the complete collection, these dates may be off by a few months, but they're at least somewhat accurate.
+
+I'm not going to try to list private or temporary servers (for INL or clue games); this is mainly for &quot;pickup&quot; game servers. A reasonable criteria for recent servers is that they have to have been advertised on the metaserver. I've included some extra notes when I think they're interesting or they'll help people remember a server.
+
+Categories for Netrek servers are:
+
+* Bronco - the original; includes scam, bronco, guzzler, calvin, and many others.
+* Chaos - bronco with mods; wrap-around walls, Galaxy ships, ping-pong plasmas. KSU Chaos refers to a particular variety.
+* Sturgeon - sturgeon-style upgrade server; loosely fits any server where upgrades are a central component.
+* Hockey - Netrek hockey; may also include Netrek soccer.
+* Paradise - paradise-style; any variant of Paradise fits here.
+* INL - INL-style server; a public server with INL features.
+* Special - special server 
+
+&quot;now&quot; in the When column refers to Jan 1 1994.
+
+{| class=&quot;wikitable&quot;
+|-
+! Category
+! Server
+! When
+! Comments
+|-
+|Paradise 
+|aedile.icaen.uiowa.edu
+|1993 - now
+|Set up by Mike Lutz
+|-
+|Chaos
+|aleph.cis.ksu.edu
+|Spring 1992 - Summer 1993
+|-
+|Chaos
+|hilbert.math.ksu.edu
+|Sep 1991 - Spring 1992
+|-
+|Chaos
+|depot.cis.ksu.edu
+|1991? - Sep 1991
+|Set up by ??
+|-
+|Bronco
+|alia.cs.umn.edu
+|Jul 1992 - Nov 1992
+|Set up by ??
+|-
+|Bronco
+|auk.warp.cs.cmu.edu
+|1991? - Nov 1992
+|Set up by Todd Mummert.  First experiment with invitation-only servers.
+|-
+|Bronco
+|b62150.student.cwru.edu
+|Nov 1992 - Oct 1993
+|Set up by Michael C Neuman.  Primarly for borgs and robots.  Promotions done by vote.
+|-
+|Bronco
+|bayes.ibr.cs.tu-bs.de
+|Feb 1992 - now
+|Set up by Uwe Schreiweis
+|-
+|Bronco
+|bete.mit.edu
+|1993 - Oct 1993
+|-
+|INL
+|bete.mit.edu
+|1993 - Oct 1993
+|Set up by Mark H. Levine.  First public (metaserver-listed) INL server.
+|-
+|Bronco
+|bezier.berkeley.edu
+|1991? - Nov 1992
+|Set up by Scott Drellishak.  Featured anti-&quot;stupid ogging&quot; mods.
+|-
+|Bronco
+|bigbang.astro.indiana.edu
+|June 1993 - now
+|Set up by Jim Pitts
+|-
+|Chaos
+|bookend.design.iastate.edu
+|Nov 1992 - Summer 1993
+|Set up by Rony Muliana, with some work by Adrian Penn.
+|-
+|Bronco
+|borg.plan9.cs.su.oz.au
+|Dec 1992 - Dec 1993
+|-
+|Bronco
+|orthanc.cs.su.oz.au
+|1991? - Dec 1992
+| Set up by Maurice Pagnucco (+ others?).  Older than deakin, but never advertised.
+|-
+|Bronco
+|borkum.informatik.uni-rostock.de
+|Jul 1992 - Oct 1993
+|Set up by ??
+|-
+|Bronco
+|bronco.ece.cmu.edu
+|Oct 1990 - now
+|Set up by Terence Chang
+|Most popular server for years
+|-
+|Bronco
+|calvin.usc.edu
+|Nov 1991 - now
+|Set up by Dan King, w/help from Daryll Strauss.  Widely known for horrific lag.  Originally had zero-delay uncloaking.
+|-
+|Bronco
+|cups.gmu.edu
+|Summer 1993 - Nov 1993
+|Set up by Carter T. Shock.
+|-
+|Bronco
+|deakin.anu.edu.au
+|Jul 1992 - Nov 1992
+|Set up by James Ashton.  First public Netrek server in Australia.
+|-
+|Bronco
+|diamant.informatik.uni-oldenburg.de
+|Nov 1992 - Summer 1993
+|Set up by ??
+|-
+|Bronco
+|dmsun1.bath.ac.uk
+|Summer 1993 - 1993
+|Set up by stuartw@ee.bath.ac.uk (Moonstone).
+|-
+|Chaos
+|doorstop.design.iastate.edu
+|Summer 1992 - Nov 1992
+|-
+|Bronco
+|doorstop.design.iastate.edu
+|Nov 1992 - Oct 1993
+|Set up by Rony Muliana.  Got its name because the machine was being used for little else.
+|-
+|Sturgeon
+|earth.esrg.ucsb.edu
+|Oct 1993 - now
+|-
+|Bronco
+|esrg.ucsb.edu
+|Mar 1992 - Sep 1993
+|Set up by Terry Figel.
+|-
+|Paradise
+|eelpout.micro.umn.edu
+|Nov 1993 - now
+|-
+|Paradise
+|shamu.micro.umn.edu
+|1993 - Nov 1993
+|Set up by Michael McGrath.
+|-
+|Bronco
+|eowyn.informatik.uni-oldenburg.de
+|1993? - now?
+|Set up by ??
+|-
+|Bronco
+|explorer.ecn.purdue.edu
+|Dec 1992 - 1993
+|Set up by Edwin Brown
+|-
+|Bronco
+|fb3-s1.math.tu-berlin.de
+|Feb 1993 - now
+|Set up by Matthias Steffen
+|-
+|Bronco
+|fife.ecn.purdue.edu
+|Mar 1992 - now
+|Set up by Brian D Hall.  A successor to king.ecn.purdue.edu??
+|-
+|Bronco
+|fisher.psy.vu.nl
+|Nov 1992 - now
+|Set up by Rob van Leeuwen
+|-
+|Bronco
+|flint.cs.brown.edu
+|Jul 1992 - Feb 1993
+|Set up by Eugene Santos Jr.  Players could change server config by voting
+|-
+|Bronco
+|flubber.cc.utexas.edu
+|1991? - Aug 1991
+|Set up by ??
+|-
+|Bronco
+|fysas.fys.ruu.nl
+|Aug 1991 - Nov 1991
+|Set up by ??  First public Netrek server in Europe.  First public Netrek server outside USA.
+|-
+|Bronco
+|galilei.iesd.auc.dk
+|Nov 1991 - Mar 1992
+|Set up by ??
+|-
+|Bronco
+|garnet.cdf.toronto.edu
+|Nov 1992 - now
+|-
+|Chaos
+|trillian.cdf.toronto.edu
+|Nov 1991 - Feb 1992
+|Set up by Chris Chin.  First public Netrek server in Canada.  May have had other names too.
+|-
+|Hockey
+|geo1s.mps.ohio-state.edu
+|Nov 1992 - Feb 1993
+|Set up by Waheed Ansari.  Started out as a bronco-style server.
+|-
+|Bronco
+|ghost.dsi.unimi.it
+|Jul 1992 - now
+|Set up by Carlo Bolchini.  First public Netrek server in Italy.
+|-
+|Bronco
+|grit.cs.utexas.edu
+|Jul 1992 - Jul 1992?
+|Set up by ??  Based on foghorn code
+|-
+|Bronco
+|wormhole.ecst.csuchico.edu
+|Dec 1993 - now
+|-
+|Bronco
+|netrek.ecst.csuchico.edu
+|Nov 1993 - Dec 1993
+|-
+|Bronco
+|guzzler.ecst.csuchico.edu
+|Nov 1992 - Nov 1993
+|Set up by Nick Trown.  First server with clue-checking.
+|-
+|Bronco
+|harvey.cs.umd.edu
+|Nov 1991 - now
+|Set up by Jerry Wieber.  Brief hiatus around Feb 1992.
+|-
+|Hockey
+|hockey.ksu.edu
+|Nov 1992 - now
+|Set up by Brick A. Verser.  First full-time Netrek Hockey server
+|-
+|Bronco
+|hpserv.math.tamu.edu
+|Jan 1992 - Jul 1992
+|Set up by ??
+|-
+|Bronco
+|iacrs2.unibe.ch
+|Feb 1992 - Oct 1993
+|Set up by Martin Schuetz
+|-
+|Bronco
+|ib.sei.cmu.edu
+|Nov 1991 - Mar 1992
+|Set up by ??  Modified cloaking: complete invisibility but totally blind
+|--
+|Paradise
+|inconel.engr.wisc.edu
+|Feb 1993 - 1993
+|Set up by chris@inconel?
+|-
+|Bronco
+|infant2.sphs.indiana.edu
+|Aug 1993 - now
+|Set up by Jim Pitts
+|-
+|Bronco
+|iota42.mtek.chalmers.se
+|Jul 1992 - late 1993
+|Set up by Lars Bernhardsson.  First public Netrek server in Sweden.  Became borg/test server in early 1993 when virsjloff started.
+|-
+|Bronco
+|jupiter.cse.utoledo.edu
+|       Feb 1993 - Nov 1993
+|       Set up by timuszyn@jupiter.cse.utoledo.edu?
+|-
+|Bronco
+|k9.cs.rose-hulman.edu
+|       Feb 1992 - Mar 1992
+|       Set up by ??
+|-
+|Chaos
+|kensho.biosci.arizona.edu
+|       Feb 1992? - Feb 1993
+|       Set up by Kevin Powell
+|-
+|Chaos
+|king.ecn.purdue.edu
+|               Feb 1992 - Feb 1992
+|       Set up by ??
+|-
+|Chaos
+|laurel.cs.nyu.edu
+|               Jan 1992 - Feb 1992
+|       Set up by ??
+|-
+|Bronco
+|lee.cecer.army.mil
+|               Aug 1993 - Aug 1993
+|       Set up by (never mind)
+|       Shortest-lived public Netrek server (about two days)
+|-
+|Bronco
+|legend.cma.fr
+|Feb 1992 - now
+|-
+|Bronco
+|espace.cma.fr
+|               Oct 1991 - Feb 1992
+|       Set up by Jean-Marc Tanzi
+|-
+|Bronco
+|lindt.aero.org
+|               Nov 1991 - Mar 1992
+|       Set up by ??
+|-
+|Bronco
+|lrdc5.lrdc.pitt.edu
+|               1991? - Nov 1991
+|       Set up by ??
+|-      Previously on a different host?
+|Bronco
+|mango.ucs.indiana.edu
+|       Nov 1991 - Nov 1991
+|       Set up by ??
+|-
+|Chaos
+|matt.ksu.ksu.edu
+|               1989 - Jul 1992
+|       Set up by Brett McCoy
+|-
+|Bronco
+|midgard.umiacs.umd.edu              1993 - 1993
+|Set up by Carter T Shock
+|-
+|Bronco
+|megalag.risc.uni-linz.ac.at
+|Sep 1993 - now
+|-
+|Bronco
+|melmac.risc.uni-linz.ac.at
+|       Oct 1991 - Sep 1993
+|       Set up by Peter Pregler
+|       First public netrek server in Austria
+|       Not listed on FAQ until Feb '92 (9.6Kbps -&gt; 64Kbps)
+|-
+|Bronco
+|miramar.cad.gatech.edu
+|       Feb 1993 - 1993
+|       Set up by Noah White?
+|-
+|Chaos
+|needmore.cs.utexas.edu
+|       Nov 1991 - Mar 1992
+|       Set up by ??
+|-
+|Bronco
+|netrek.atd.ucar.edu
+|               Jul 1992 - Feb 1993
+|       Set up by Jonathan Corbet
+|-
+|Bronco
+|netrek.chemietechnik.uni-dortmund.de
+|Jul 1992 - now
+|       Set up by Heiko Wengler
+|       Longest hostname of any server
+|-
+|Paradise
+|netrek.cis.ufl.edu
+|               Jun 1993? - now
+|       Set up by Robert H. Forsman
+|-
+|Sturgeon
+|netrek.cis.ksu.edu
+|Feb 1993 - Oct 1993
+|-
+|Chaos
+|netrek.cis.ksu.edu
+|               Jul 1992 - Oct 1993
+|       Set up by Joseph F. Young
+|       Ran chaos and sturgeon servers on separate ports
+|-
+|Bronco
+|netrek.cs.bham.ac.uk
+|       Summer 1992 - now
+|       Set up by Andy Willams
+|       First public Netrek server in U.K.
+|-
+|Bronco
+|netrek.cs.mcgill.ca
+|               Jul 1992 - now
+|       Set up by Kent Tse
+|-
+|Sturgeon
+|netrek.icaen.uiowa.edu
+|       Nov 1992 - now
+|       Set up by Mike Lutz
+|-
+|Chaos
+|netrek.math.ksu.edu
+|               Nov 1991 - Mar 1992
+|       Set up by Brick A. Verser and Tim Ramsey?
+|-
+|Bronco
+|netrek.neosoft.com
+|               Oct 1993 - now
+|       Set up by Karl Lehenbauer
+|-
+|Bronco
+|netrek.solace.mh.se
+|               1993 - now
+|       Set up by ??
+|-
+|Bronco
+|netrek.uml.edu
+|1993 - now
+|-
+|Bronco
+|netrek.ulowell.edu
+|Nov 1992 - 1993
+|-
+|Bronco
+|romulus.ulowell.edu
+|1992 - Nov 1992
+|-
+|Bronco
+|bigmax.ulowell.edu
+|Jul 1992 - 1992
+|       Set up by Brian 'Doc' O'Neill.  Finally got an alias for it, and the domain name changed.
+|-
+|Bronco
+|netrek.unh.edu
+|1993 - now
+|-
+|Paradise
+|paradise.unh.edu
+|1993 - now
+|-
+|Bronco
+|ghost.unh.edu
+|1992 - 1993
+|Set up by Robert M. Kenney.  ghost is the actual machine; netrek and paradise are both aliases.
+|-
+|Hockey
+|nova.ksu.ksu.edu
+|               May 1992 - Sep 1992
+|       Set up by Brick A. Verser
+|       Hockey and INL servers were run concurrently in 1992
+|-
+|Bronco
+|orca.cosy.sbg.ac.at
+|1993? - now
+|-
+|Paradise
+|orca.cosy.sbg.ac.at
+|1993? - now
+|-
+|Bronco
+|flunder.cosy.sbg.ac.at
+|       1992? - 1993?
+|       Set up by Peter Burgstaller
+|-
+|Bronco
+|panda.lpl.arizona.edu
+|       Nov 1991 - May 1992
+|       Set up by Jeff Nelson
+|-
+|Bronco
+|panther.ecss.iastate.edu
+|       Jul 1992 - Nov 1992
+|       Set up by ??
+|-
+|Paradise
+|paradise.cs.bham.ac.uk
+|       1993 - 1993
+|       Set up by Andy Williams?
+|-
+|Bronco
+|peanuts.informatik.uni-tuebingen.de
+|Jan 1992 - Oct 1993
+|       Set up by ??
+|-
+|Chaos
+|priddy.cs.utexas.edu
+|       Feb 1992 - Mar 1992
+|       Set up by ??
+|-
+|Paradise
+|ravel.theo-physik.uni-kiel.de
+|Nov 1993 - now
+|       Set up by Lutz Molgedey
+|-
+|Paradise
+|pippin.ee.usu.edu
+|Dec 1993 - now
+|-
+|Paradise
+|recumbent.declab.usu.edu
+|Jun 1993? - Dec 1993
+|-
+|Paradise
+|paradise.declab.usu.edu
+|Jan 1993 - Mar 1993
+|Set up by Brandon Gillespie.  First Paradise server (hence the name).
+|-
+|Bronco
+|rwd4.mach.cs.cmu.edu
+|Apr 1991 - Feb 1993
+|Set up by Randall Dean.  No-profanity server. Borg/robot haven for quite some time.
+|-
+|Bronco
+|scws9.harvard.edu
+|               Nov 1991 - Jul 1992
+|       Set up by Robert Irie
+|-
+|Bronco
+|sequent.berkeley.edu
+|Spring 1986 - Summer 1991
+|Set up by Kevin Smith and Scott Silvey.  First widely used Netrek server, anywhere.
+|-
+|Bronco
+|sickdog.cs.berkeley.edu
+|Jun 1992? - now
+|-
+|Bronco
+|bigdog.cs.berkeley.edu
+|Jan 1992 - Aug 1992?
+|Set up by Jack Hsu.  Featured a three-race galaxy.  Used for dogfight tournaments.  Short-lived Netrek soccer was here.
+|-
+|Bronco
+|soc8.acpub.duke.edu
+|               1992 - Feb 1992
+|       Set up by ??
+|-
+|Sturgeon
+|sturgeon.cs.washington.edu
+|Jul 1992 - Oct 1993
+|-
+|Bronco
+|sturgeon.cs.washington.edu
+|Feb 1992 - Nov 1992
+|-
+|Sturgeon
+|scrod.cs.washington.edu
+|Mar 1992 - Jul 1992
+|Set up by Donald Tsang.  First upgrade server.  Both sturgeon-style and bronco-style servers here for a while.  Original was scrod (hence &quot;scrod hacks&quot;), but &quot;sturgeon&quot; stuck.
+|-
+|Bronco
+|sylvester.cc.utexas.edu
+|       1992? - 1992?
+|       Set up by ??
+|-
+|Bronco
+|tardis.cl.msu.edu
+|Feb 1993 - 1993
+|-
+|Bronco
+|discovery.cl.msu.edu
+|Jul 1992 - Feb 1993
+|-
+|Bronco
+|scss3.cl.msu.edu
+|Feb 1992 - Jul 1992
+|Set up by ??  No-profanity server?  Discovery was very popular, but players didn't follow when it moved to tardis.
+|-
+|Bronco
+|tbird.cc.iastate.edu
+|       Feb 1992 - Nov 1992
+|       Set up by Michael Graff
+|-
+|Bronco
+|tolstoy.afit.af.mil
+|               1993 - now
+|       Set up by Eugene Santos Jr.
+|-
+|Bronco
+|tramp.cc.utexas.edu
+|Sep 1992 - Dec 1992
+|-
+|Chaos
+|foghorn.cc.utexas.edu
+|Feb 1991 - Jun 1992
+|Set up by Alex Kluge?  Brief hiatus in Jan 1992.
+|-
+|Bronco
+|u.ergo.cs.cmu.edu
+|               1990? - 1990?
+|       Set up by Tim Freeman?
+|-
+|Bronco
+|uhura.fmi.uni-passau.de
+|       Feb 1992 - Feb 1993
+|       Set up by ??
+|-
+|Bronco
+|ultrix.csc.usf.edu
+|               Feb 1992 - Nov 1992
+|       Set up by ??
+|-
+|Bronco
+|virsjloff.cd.chalmers.se
+|       Jan 1993? - now
+|       Set up by Lars Bernhardsson
+|-
+|Special
+|vlsi.ics.uci.edu
+|               Aug 1992 - now
+|       Set up by Tedd Hadley
+|       Base practice server
+|}
+
+I have the server lists released on:
+        30-Aug-91
+        15-Sep-91
+        28-Sep-91
+        08-Nov-91
+        29-Nov-91
+        04-Jan-92
+        13-Feb-92
+        05-Mar-92
+        17-Jul-92
+        27-Nov-92
+        19-Feb-93
+        10-Oct-93
+
+Back to Netrek History home page
+
+fadden@catapent.com

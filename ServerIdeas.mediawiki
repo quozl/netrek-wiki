@@ -1,0 +1,91 @@
+See also the file PROJECTS in the server source repository, as it contains many other ideas.
+
+==Vanilla server==
+* Share user bases between servers of same type, so when player logs in to server A and makes rank there, server B will also be aware of that.
+* Have server send info on torp and plasma fuses.
+* Server packet for rank requirements like min offense, also allows server to have a custom rank list and custom rank requirements.
+* Allow clue game rank to carry over from game to game.
+* Allow active player to switch between player and observer slot.  Place observer on wait queue if it exists when they attempt to switch to player slot.
+* Allow players to extract their lifetime stats for a given character from a given server and save this to a text or HTML file.
+* Create an RSS feed per server in which players could subscribe:
+** Email players when a server has a certain threshold of players such as TMODE or TMODE minus 1.
+** Web viewable list of all players logged in and their full hostnames and IP addresses.
+* Add voice communication such as TeamSpeak or IBM's TTS which is now open sourced.
+* Improve player statistics and presentation:
+** Add more player stats (PWSTATS and LTDSTATS):
+** The code already exists in older netrek servers
+** Allow a player to be emailed their game stats after their client quits a pickup or clue game.
+** Make a pickup blog and a clue game blog (each server could have their own)
+*** All stats from pickup and clue games could be automatically uploaded
+*** Combine this with stats tracking and a player could login to the server's blog and automatically see all their game stats (like we already do for clue games) as well as their character lifetime stats for pickup and clue games
+** Add graphs to show percentage of time spent flying a given ship
+** Add graph to show lifetime DI or Stats (off+def+bomb) for a player
+** Add graph to show lifetime bombing, armies dooshes, offense or anything you want over time
+* Create central database that will either provide unified client ID which is persistent across all servers or track multiple server IDs. It would then be much easier to implement the following functionality:
+** Let the user enter their email address so they can be sent an email when t mode starts on server(s) of their choosing. 
+** Provide web interface so that players can login and check their statistics for all servers (or for all their netrek logins associated with a given ID).
+** When a player logs in to the web interface graphs will be dynamically generated (using gnuplot for example) showing their total time spent playing on each server (or a total for all servers they played on) for a given period. Can have graphs showing daily/weekly/monthly/yearly and historical totals.
+** Provide detailed player statistics showing their total offense for a given time period, total armies dooshed, total armies delivered, total armies escorted, etc.
+*** GGZ Gaming Zone should provide this, being tracked as bug #netrek-client-cow-5 and in PROJECTS in server source. --[[User:Quozl|Quozl]]
+
+==Sturgeon server==
+* Give planets defensive capabilities such as shooting Paradise style missiles at incoming ships
+* Add wormholes which would pop up randomly on the galaxy and transport one ship caught within a certain distance to a random spot on the galaxy
+* Add toxic planets, these would be select planets on greyed out planets (ie. the planets of the other 2 races besides the 2 races at war which no one has yet touched)
+* Add starbase upgrades dependent on KPH over time + enemy planets your team has taken:
+** stasis field which temporarily freezes an enemy ship
+** Death Star type powerful laser which can destroy armies on enemy worlds
+** time warp field which knocks an enemy ship backwards a given distance
+** beam armies onto non-SB team mates if SB is under attack and dying
+* Add Paradise style Jumpship which can carry a teammate's ship in it and can go as fast as an SC
+
+==Hockey server==
+* Add hockey bots so that you can have hockey game with bots and humans
+* Allow bots to be given commands such as:
+** 'defend X' - defend player X
+** 'defend goal' - defend the net
+** 'assist X' - ogg the enemy player closest to X
+** 'recpass X' - receive a pass from player X
+** 'pass X' - pass to player X
+** 'faceoff' - take the faceoff and if won pass to closest teammate
+* Improved bot logic/AI would be needed.
+* Allow BB, CA, DD and SC ship types.
+* Make a widened rink (opens up game - European style hockey) an option
+* Shrink net width (more defensive style game)
+* Widen net width (more offensive style game)
+
+==INL server== 
+* a way for a captain to pick someone out of the queue, or observers, to add to their team.  Risk of abuse though; in open clue games, it should be first come/first serve, not cherrypicking the good player who's third in line.
+** player substitution from observers was completed in July 2008, with limited client support, waiting for other clients to provide support
+* It would be good to have a way to lock out a slot for a 7 on 7 game.
+* &quot;uncaptain&quot;, &quot;trade&quot;, and &quot;continue&quot; are not in the in-game help
+** they appear to be present in the help text in the //inl_commands// table in robots/inlcmds.c, though the entries will only be displayed if you first use the //captain// command. can you check again please? quozl)
+* final planet count and cscore would be nice in pw_stats
+* add auto guest# name generation for INL server, i.e. if someone logs in as guest, they are given the name guest1234 or something so they don't get booted
+* enable server blogging for both pickled and inl servers, can send them to same directory, I think there's only one blogging event specific to INL anyways and I think it may not even work. 
+* When an INL game finishes, the client should be given the URL of a web page that contains the results of the game. The client should launch a browser to that page. The page can be hosted by the server, either as a directory given to an apache server or as a specific netrekd controlled script request. We'd need to take care not to let the client web browser escape the filesystem.  This could be combined with the generation of an RSS feed for genos, something which is already in the PROJECTS file in the server source code.
+
+==Game Play Modifications== 
+==General Changes==
+* New weapon types (just torps and phasers may get a bit boring for the newbies) such as
+** Torps that explode and do radius damage when they reach their destination
+** Torps that do no damage but show cloakers
+** Drones like the old sturgeon (slow moving torps that tracked the nearest target)
+** Super long range torps
+** Self detonation which does huge area damage
+** Some kind of stun torp or disable torp
+* Different ship types
+** A ship that can heal other ships
+** A ship that has low mass and huge tractors and almost no max warp so it just piggy backs on other ships (almost like being able to play as the puck in hockey)
+** A ship the only does damage to all ships it gets in range to
+** A ship that could open a portal to other areas of the map
+* Buddy ships.  If you get a high enough rank you get a little ship that follows you around and occasionally fires a torp at your target
+* The ability to capture an enemy ship.  I.e. if you have armies youcan beam them aboard another ship and capture it.
+* Add alternate fire for phaser and torp. Some possible choices:
+** Alternate fire torp produces two parallel torp streams: | | each group of torps would be located on the far left and far right area of the ship respectively
+** Alternate fire phaser produces a rapid burst in quick succession of varying phaser strength such as short-long or long-short
+
+===On The Line=== 
+A similar style game play to [http://en.wikipedia.org/wiki/Tower_Defense Tower Defense], which is a style of game play for the popular Warcraft 3 and Starcraft games. In those games you use a variety of defences to attempt to stop what results in an overwhelming force of non-player-controlled bots, and the idea is to last as long as possible (or until a timer runs out).
+The Parallel in netrek would be a situation where you have to 'Hold The Line'. Defend the homeworld, or a collection of worlds, against bots. The original idea I had was given a team of players (8?), that would be pitted against a team of robots that would start with 1 robot, and each minute, the enemy would gain another robot on its team, until an overwhelming force of 32 (32 is a nice, large, arbitrary number) robots are in play.
+The idea would be to last as long as possible, or last a full 5 minutes against 32 players.

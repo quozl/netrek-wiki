@@ -1,0 +1,28 @@
+==NOTE 2009-03-07 - Merge project is on indefinite hold due to SEO issues and limited admin time.== 
+
+
+
+Contemplating merging playnetrek.org with [[http://www.netrek.org|www.netrek.org]]. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+We already have a bunch of redirects and are contemplating adding more. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;We should make a master redirect page to keep track of them so that &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;future site updates don't break things. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+the playnetrek page should be archived. Really, the whole site probably excepting forums and maybe bins should be archived. akb likes archives. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+playnetrek url's that are not seo/traffic related: &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/netrek-tutorial.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+** copy over. needs flash bit and images. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/netrek-game.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/Disclaimer.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/netrek-news.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+** ok, added a redirect to news.php, which is the sidebar's news page &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/dantes-df.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+** ok, added file with meta refresh redirect, not pushed to www yet, akb 2007-06-20 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+playnetrek url's that are seo/traffic related: &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/netrek-help.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/play-netrek-contactme.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/netrek-about-playnetrek.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* link exchange at bottom of home page &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/netrek-links.html]] &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [[http://www.playnetrek.org/netrek/netrekinstall.exe]] (121 google hits on &quot;netrekinstall.exe&quot; ) &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* also perhaps netrek/netrekclassic.exe; probably not netrek/cambot-helper.exe, netrek/cluegameqc.exe, netrek/classictutorial.exe, netrek/xp2006tutorial.exe &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* do any of the download sites link to [[http://www.playnetrek.org|www.playnetrek.org]] /imgs/game_online.jpg or other pictures? &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+other cutover issues: &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* the forums &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* getting at the web

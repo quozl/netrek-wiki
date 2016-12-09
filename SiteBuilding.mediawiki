@@ -1,0 +1,51 @@
+=various= 
+* [[NexusHacking]], the place to talk about editing the Netrek Nexus site
+* [[SpoogeFile]], a dumping ground for small content clues which should end up in major site updates 
+=list of sites for sitebuilding= 
+Following is a list of links we might want to get content from (with permission, of course) or link to from a new netrek website, or coordinate promotion with (i.e. ask them to update things that are stale) including pointers to stuff from the old netrek website. Think of it as a netrek hotlist/bookmarks page. Please do not delete anything from this list; move it to the &quot;we don't want this&quot; list at the bottom of the page and state why.
+===basic list=== 
+* [http://www.hargelsberg.at/nasg2007/ info about the 2007 Austrian gathering]
+* [http://mactrek.sourceforge.net/Downloads.html mactrek downloads page at sourceforge]
+* [http://sourceforge.net/projects/netrekng/ Sourceforge project for NetrekNG]. Is this project alive?
+* [http://www.speakeasy.org/%7Exyzzy/download/ http://www.speakeasy.org/~xyzzy/download/ xyzzy's downloads page] and [http://www.speakeasy.org/%7Exyzzy/netrek/ http://www.speakeasy.org/~xyzzy/netrek/ paradise 2000 home page]
+* http://netrek.keyos.org someone's windows 4.4.0.4 todo list, distros, etc.
+* [http://paradise.sourceforge.net paradise@sourceforge]
+* [http://netrek.netarbeiter.com/ Nice-looking www frontend for metaservers]; click the [http://netrek.netarbeiter.com/metaserver.php metaserver] link there. This site also does stuff about crossfire and xpilot. 
+* [http://groups.google.com/group/rec.games.netrek/topics google groups view of rec.games.netrek] 
+* [http://groups.google.com/group/netrek-clue-games/ clue game list] 
+* [http://www.playnetrek.org/index.html playnetrek.org] rock on, joe. 
+* [http://www.geocities.com/dantes_tb3 Dante's dogfighting guide] 
+* http://www.cs.cmu.edu/afs/cs.cmu.edu/user/jch/netrek/README.html 
+* http://members.tripod.com/%7Enetrek/|http://members.tripod.com/~netrek/ &quot;netrek outpost&quot; 
+* [http://netmerc.cjb.net/ netmerc, a probably-stillborn flash-based team db] mainly included for completeness. 
+* [http://netrek.pulsar-zone.net/ pulsar-zone server info] 
+* http://netrek.hwy.com.au/ server info DECOMMISSIONED JULY 2007 
+* [http://netrek.beeseenterprises.com netrek.beeseenterprises.com] sturgeon info 
+* http://nand.t35.com nand's personal site, has a few screenshots of embarassing message logs 
+* http://yoda.t35.com Yoda! &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+* [http://www.shadowhunter.org/gatherings/ photos from old netrek gatherings] 
+* [http://www.radscan.com/conquest.html conquest home page] 
+* [http://www.freesoftwaremagazine.com/node/1591 article] on linux desktop games 
+* [http://en.wikipedia.org/wiki/PLATO_Empire_%28computer_game http://en.wikipedia.org/wiki/PLATO_Empire_(computer_game) Empire@wikipedia] 
+* [http://en.wikipedia.org/wiki/Netrek Netrek@wikipedia] 
+* http://paradise.homeunix.org/~netrek paradise link; might be dead, scrape from archive? 
+* http://www.eve.ualberta.ca/~pmok/netrek/paradise.html paradise link; might be dead, scrape from archive? 
+* http://www.vec.bgsm.edu/~ahn/netrek/index.html paradise link; might be dead, scrape from archive? 
+* http://www.math.fu-berlin.de/~rene/paradise/index.html paradise link; might be dead, scrape from archive? 
+===List of stuff from netrek.org places=== 
+* [http://genocide.netrek.org/downloads/clients/ old site's list of clients] 
+* [http://wiki.us.netrek.org/netrek-dev/ this wiki] 
+* [http://metaserver.us.netrek.org:1080/ metaserver port 1080] (note: this page could use a timezone on the timestamp, and a note on the listing policy would not be amiss). This page is also accessible at http://www.metaserver.us.netrek.org 
+* [http://metaserver2.us.netrek.org:1080/ metaserver2 port 1080] (also could use a timezone). This page is not accessible at http://www.metaserver2.us.netrek.org www.metaserver2.us.netrek.org. 
+* http://www.netrek.org 
+* http://www.netrek.org/files old builds 
+* http://www.netrek.org/stats inl-style game stats and recordings 
+* was there content on cow.netrek.org that isn't online now? 
+* http://facefiles.netrek.org 
+* [http://mailman.us.netrek.org/mailman/listinfo/ mailing lists] (netrek and netrek-dev) 
+===dev related stuff=== 
+OK, this stuff doesn't really go on this page, but what the heck.
+* [http://darcs.net/manual/node7.html#SECTION00751000000000000000 DARCS manual, list of commands]
+* [http://www.goteamspeak.com/index.php?page=about teamspeak]. make sense for netrek? doable? 
+===Stuff we don't want=== 
+nothing here yet

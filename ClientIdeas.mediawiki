@@ -1,0 +1,98 @@
+Ideas for client development.  You add ideas to the ''Unreviewed Ideas'' section.  Developers will review and comment, moving them to the ''Reviewed Ideas'' section.
+
+See also the various client source repositories for TODO items, FIXME items, feature requests, and other ideas.
+
+* netrek-xp, see the file ''NetrekXP to do list.C'',
+* netrek-client-pygame, see the tags ''FIXME'' in the source,
+* netrek-client-cow, see the file ''TODO'' and the ditz bugs directory.
+
+=Reviewed Ideas for netrek clients=
+
+==Accepted Ideas==
+* Allow for multiple displays to be leveraged effectively. Modern computers have more than 1 monitor, so we could have the Tactical on one monitor, and the Galactic on the other.
+** Good idea, would like to see in Netrek XP.  --[[User:Modemhero|Modemhero]]
+** Good idea, added to the feature request list, netrek-client-cow-3, netrek-client-pygame/  --[[User:Quozl|Quozl]]
+* Verbosity setting for logfile..phaser and torp warn messages can be very spammy.
+** Netrek XP cuts down on logfile spam by not logging warning messages (which are generally unimportant for logging purposes).  --[[User:Modemhero|Modemhero]]
+* Some sort of click action on player list brings up a menu with settings for that player's candock, cantranswarp, ban, ignore, etc.
+** I would really like this in Netrek XP.  --[[User:Modemhero|Modemhero]]
+* Command-line tools and options should be the design of last resort.
+** I wholeheartedly agree.  --[[User:Modemhero|Modemhero]]
+* Instead of pressing i on the board you put it directly on the mouse every time the mouse will pass over a planet you will be able to see what kind of planet it is and how many army on it in a little screen up in the corner.
+** Different planet type by graphics added to Netrek XP 2009, army count display on local is supported as a server feature packet.  --[[User:Modemhero|Modemhero]]
+* Interpolate graphics between server updates.
+** Mactrek uses interpolation.
+** I would really like this in Netrek XP.  --[[User:Modemhero|Modemhero]]
+* Increase updates/sec to 50.
+** Server is 50 fps capable, with continuum and sturgeon having moved to 50 fps, and COW/Netrek XP clients supporting (up to) 50 fps.  --[[User:Modemhero|Modemhero]]
+* In general the bitmapped graphics look dated.  Smoothing out movements (vis-a-vis smooth ship rotations) and better effects (explosions with particle effects, maybe some lighting, trails off the torps or plasmas).
+** Netrek XP has smooth ship rotations, spinning torps (particle effects on torps would just get in the way), no particle effects though on explosions.  --[[User:Modemhero|Modemhero]]
+* Give the player more tactical screen real estate (even if no real additional information is displayed on the tactical).
+** Mactrek has a very big tactical. Unclear how much area it covers.
+** Netrek XP has unlimited tactical/map scaling.  Expanding the tactical does give more information for ship positions and self torps/plasmas.  Server does not send info on other player's weapons beyond the standard 500x500 tactical window.  --[[User:Modemhero|Modemhero]]
+** netrek-client-pygame has a 1000x1000 pixel tactical ... and currently does not display a galactic unless requested.  --[[User:Quozl|Quozl]]
+* Allow zooming of the tactical window, this could allow for very richly detailed modern ships (could even use 3D models with textures applied and other OpenGL effects).
+** Netrek XP tactical is zoomable and has fancy ship graphics.  --[[User:Modemhero|Modemhero]]
+** MacTrek tactical is zoomable and has fancy ship graphics. -- [[User:Akb4|Akb4]] 06:13, 17 March 2009 (UTC)
+* Improve sound quality, add background music/noise.
+** Netrek XP has Star Trek themes, and background music has been added as an option using .ogg sound files.  --[[User:Modemhero|Modemhero]]
+* The ability to move windows in the client is nice, but quite possibly misguided, especially since you can do it while in combat.
+** Window movement can be locked in Netrek XP.  --[[User:Modemhero|Modemhero]]
+* Use red/yellow/green colors in the phaser damage message window to indicate strength of phaser, with color scaling based on percentage of maximum phaser damage inflicted.
+** Good idea, would like to see in Netrek XP.  --[[User:Modemhero|Modemhero]]
+* Add single key (a la F1) pop up complete help/tutorial application.
+** Good idea, Netrek XP uses F1 to open up a MS Windows help file.  Tutorial still a separate standalone application.  --[[User:Modemhero|Modemhero]]
+* Use military hours display for clock.
+** This feature is already standard in Windows clients.  --[[User:Modemhero|Modemhero]]
+* Have metaserver be minimizable to the system tray.  The icon will be colored based on how close to t mode on your server of choice.  A sound will play when t mode is reached.
+** Good idea, would like to see in Netrek XP.  --[[User:Modemhero|Modemhero]]
+
+==Partially Accepted Ideas==
+* Every connection and configuration option should be settable from within the client, probably requiring the ability to create 'profiles' for players/servers with special settings.
+** It's hard to put every setting in there (such as window geometry down to the pixel level).  Ship/server specific settings already available in Netrek XP.  --[[User:Modemhero|Modemhero]]
+* Players can upload image files of themselves which could display if you do a &quot;information&quot; on that player.
+** That would be neat.  But it's really a server thing.  --[[User:Modemhero|Modemhero]]
+* Add the ability to use festival -tts, which will read out messages via the sound card to the user.
+** Mactrek has this feature
+** I don't think this is a good idea for Netrek XP.  Sounds for macros/distresses are ok, but tts is too much.  --[[User:Modemhero|Modemhero]]
+* Allow RCDs and macros to be mapped to function keys such as F2 for quit, F3 for announcing you carry armies, F4 for base ogg macro.
+** Declined, sadly.  The F1 key in Netrek XP is hard coded in for opening the help files.  It would require rebuilding the whole keyboard processing to have user configurable function keys.  The best I could do is to do things like hard code F5 to save, F2 to open options menu, etc.  But would that really be useful?  --[[User:Modemhero|Modemhero]]
+** Declined, difficult in netrek-client-cow, because like Netrek XP the graphics interface tries to translate every platform key code to an ASCII code which is then handled by the keymapping interface. --[[User:Quozl|Quozl]]
+** Accepted for netrek-client-pygame since the key processing is based on Pygame keyboard constants which are derived from the SDL constants. --[[User:Quozl|Quozl]]
+* Provide easy intuitive way to record a game via GUI, either in client or in a separate utility.  Have play/pause/record buttons.  Allow setting file name manually or automatically.  Allow conversion to other video formats.
+** Netrek XP has a separate cambot utility that allows playback and recording of games.  File name is able to be set manually.  Autogeneration of cambot file names is a good idea, would like to see that in Netrek XP.  Conversion to other video formats declined, up to user.  Play/pause/record buttons declined, recordings need to be continuous.  Play/pause are for playback and already exist.  --[[User:Modemhero|Modemhero]]
+
+==Declined Ideas==
+* Have client run over http and through a web browser.
+** A lot of work but I think it would be neat.  --[[User:Modemhero|Modemhero]]
+** Declined.  Has been tried in netrek-client-cow on Microsoft Windows about ten years ago, but didn't catch on, so support was dropped.  But if some Flash developer would like to give it a go, let us know.  --[[User:Quozl|Quozl]]
+* Allow status display (fuel, hull, shields) to be abstracted from the main client window such that it can be in a separate window, title bar or system tray icon with color coded lines.
+** Declined, status information is not needed in these places near the edge of the screen.  --[[User:Modemhero|Modemhero]]
+* Add more clock styles such as neon colored display or a different font face.
+** Declined, pixel space on dashboard is very tight, a fancy clock is both unnecessary and obtrusive.  --[[User:Modemhero|Modemhero]]
+
+==Ideas that need more detail==
+* Tractor on/off and pressor on/off option, rather than just tractor on, pressor on.  Maybe with enforced state? --Falcon
+** I would really like this in Netrek XP.  --[[User:Modemhero|Modemhero]]
+** I'd like more detail on what this idea means.  netrek-client-cow has keys $ for tractor and pressor off, _ (underscore) or left mouse button 4 for tractor off and reapply, T for tractor toggle, ^ or middle mouse button 4 for pressor off and reapply, y for pressor toggle.  It looks already implemented for netrek-client-cow.  It is not yet implemented for netrek-client-pygame, but has been added to the feature request list.  --[[User:Quozl|Quozl]]
+*** The idea was to have one key for tractors and one key for pressors, with no need for toggle.  If tractor beams are off, hitting tractor key turns them on.  If tractor beams are on, hitting tractor key turns them off.  Packet loss would be accounted for by using enforced state toggles.  Same for pressor key.  Eliminates the need for toggles, which many players dislike.
+*** http://groups.google.com/group/rec.games.netrek/browse_thread/thread/debcaf1d8864ee35/ad15df0238f593b1?lnk=gst&amp;q=toggle#ad15df0238f593b1
+*** http://groups.google.com/group/rec.games.netrek/browse_thread/thread/3239d3d12cefc16a/ec426f56c54bcdb6?lnk=gst&amp;q=tractor+pressor#ec426f56c54bcdb6
+* If people can just get past the first-impressions hurdle, they will be more inclined to stick around long enough to see how deep the game play goes.
+** More detail needed.  --[[User:Modemhero|Modemhero]]
+* There needs to be a proper configuration UI, including a modern keymapping system. Obviously keys can be remapped using the help screen, but this fact is a bit opaque to new players and provides no instruction.
+** More detail needed (we already have graphical keymap config utility in Netrek XP).  --[[User:Modemhero|Modemhero]]
+* Download a customised client from the website, with the username/password already configured.
+** Perhaps enter default username during client install?  But what if that username is taken already?  More detail needed.  --[[User:Modemhero|Modemhero]]
+
+=Unreviewed Ideas for netrek clients=
+* Add dogfight tactical mode which changes tactical zoom factor, either manually by a key (on/off), or automatically upon entering yellow or red alert.
+** I need to think more about this and I want some empirical data on the effect of both zoom and tactical size on dogfighting effectiveness.  Paradise does have such a feature for zooming the galaxy map, in part because the galaxy is much bigger than in standard netrek.  Changing the scale of tactical frequently is a bad idea as it screws with dogfighting mechanics, such as phaser length, relative torp speed, etc.  However, if the tactical was always the same size due to autozoom during yellow/red alert, it would keep dogfighting mechanics constant.  The question is: does it cause disruption in awareness?
+*** For example:  You are carrying, and you have 2 ships approaching you, and a 3rd which seems to be tailing you from a distance to cut off your angle to the open space side of the map.  You are in green alert and you are using a large monitor so your tactical is 750x750, allowing you to see all 3 ships at a distance.  One of the ship closes in, changing you to yellow alert.  Your tactical zooms in and now you can't see the other 2 ships.  I believe this would be disorienting and cause loss of effectiveness, essentially tactical tunnel syndrome, as the game is telling you to &quot;focus&quot; on the immediate threat by zooming in, whereas the threat from the other ships is just as great. --[[User:Modemhero|Modemhero]]
+**** Yes I've noticed this problem in playing paradise while using galactic zoom heavily. --[[User:ZacharyUram|ZacharyUram]]
+
+=Miscellaneous=
+==art==
+* Quozl posted the following: While looking at Blender resources for a local art teacher, I stumbled across a set of meshes that might be interesting for anybody wishing to create 3d game models for Netrek. They are at http://stblender.iindigo3d.com/meshes_startrek.html See the conditions of use at http://stblender.iindigo3d.com/meshes.html
+==screenshots==
+* On 22-Feb-2007, Colin MacDonald posted a pointer to the following experimental screenshot on the -dev mailing list: http://www.colinmacdonald.pwp.blueyonder.co.uk/pics/netrek3d.gif

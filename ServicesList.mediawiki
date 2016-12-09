@@ -1,0 +1,126 @@
+This is a list of services provided to the Netrek community.
+The list is here so that:
+* people can find services,
+* people know who to contact if something is broken, and;
+* people in charge of things remember that they are there.
+
+(A service is ''an event in which an entity takes the responsibility that something desirable happens on the behalf of another entity''.  If it doesn't match that, it should be somewhere else.)
+
+= Game Servers =
+
+== Pickup Play ==
+
+* continuum.us.netrek.org, a Bronco server with pre-t robots, run by James Cameron, hosted by Bob Tanner,
+* pickled.netrek.org, a Bronco server with pre-t robots, ran and hosted by Karthik,
+* netrek.beeseenterprises.com, a Sturgeon server, run by Bill, hosted by Zach Beese,
+
+== Clue Game Play ==
+ 
+* home.clue.netrek.org, away.clue.netrek.org, an INL server, hosted by Karthik, co-admined by John R. Dennison, appears on metaserver as home.clue.netrek.org or away.clue.netrek.org,
+* [http://stats.psychosis.net clue games stats / cambots]
+
+= Metaservers =
+
+== metaserver1.us.netrek.org == 
+* hosted on sage,
+* managed by James,
+* web interface http://metaserver1.us.netrek.org:1080/
+
+== metaserver2.us.netrek.org == 
+* hosted by Karthik,
+* managed by Karthik,
+* web interface http://metaserver2.us.netrek.org:1080/
+
+== metaserver3.us.netrek.org == 
+* hosted by Karthik,
+* managed by Karthik,
+* web interface http://metaserver3.us.netrek.org:1080/
+
+== metaserver.netrek.org ==
+* an alias listing the currently available metaservers, for use by clients
+
+= E-Mail =
+
+== Mailing Lists ==
+
+* mailing lists - Bob Tanner (host + service) [http://mailman.us.netrek.org/mailman/listinfo/ list of lists, subscribe, unsubscribe, and archives]
+* [http://groups.google.com/group/netrek-forever netrek-forever mailing list], owned by [[User:ZacharyUram|Yoda]]
+* [http://groups.google.com/group/netrek-clue-games clue game announcement mailing list]
+
+== Aliases ==
+
+* e-mail addresses in us.netrek.org domain, - Bob Tanner (host + service)
+
+= Instant Messaging =
+
+* [irc://irc.freenode.net/#netrek IRC] - channel operators: unknown
+
+= Development Foundries =
+
+* [https://launchpad.net/netrek-project various launchpad projects], various owners
+* http://sourceforge.net/projects/netrek managed by Dave, James, Bob, Kurt, Carlos, but only used by Bill for code as of 2009-03, with the netrek-cvs-commits mailing list
+
+= Web Sites = 
+
+== playnetrek.org == 
+* advertising, download and install, forums,
+* hosted by Joe Evango.
+
+== www.netrek.org == 
+* download, install, documentation, art, sources, [http://www.netrek.org/beginner/newbie.php newbie manual], [http://www.netrek.org/clueguides/ clue guides]
+* hosted on orion, by Dave Ahn,
+* managed by Andrew and Joe
+
+== genocide.netrek.org ==
+* hosted on orion
+
+== paradise.netrek.org ==
+* managed by Rado
+
+== play.netrek.org ==
+* alias for playnetrek.org
+
+== vanilla.netrek.org == 
+* server source releases,
+* managed by team using darcs,
+* hosted on crusader.real-time.com, by Bob Tanner,
+* final darcs pull authority [[User:Quozl|James Cameron]]
+
+== wiki.netrek.org ==
+* hosted by [[User:jrd|John R. Dennison]]
+* maintained by the community
+
+== old-wiki.us.netrek.org ==
+* no longer operational
+* pre-shutdown backup kept by [[User:Quozl|James Cameron]] and is also in https://code.launchpad.net/~netrek-server-team/netrek-server/wiki.us.netrek.org
+
+== www.continuum.us.netrek.org ==
+* no longer maintained, candidate for removal,
+* hosted on crusader.real-time.com, by Rick Tanner (Leaf).
+
+= Teams = 
+
+== Netrek Development Team ==
+
+* flexible membership,
+* uses netrek-dev mailing list.
+* uses irc://irc.freenode.net/#netrek IRC channel.
+
+= DNS =
+
+* Bob Tanner has SOA authority over and hosts the netrek.org DNS zone.
+* Name service for the top-level netrek.org zone is provided by a redundant set of name servers.  Authoritative servers can be listed by &quot;nslookup -q=NS netrek.org&quot;
+* Zone file for the .us.netrek.org second-level domain is in darcs.  The zone is served by redundant name servers hosted by Bob Tanner and John R. Dennison. Authoritative servers can be listed by &quot;nslookup -q=NS us.netrek.org&quot;
+
+= Hardware = 
+
+List of hardware that is dedicated to Netrek infrastructure.
+
+== sage.real-time.com == 
+* managed by Bob Tanner, and Real-Time,
+* hosted by Real-Time.
+
+== orion.netrek.org == 
+* xen instance,
+* managed by Dave Ahn, James Cameron, Bob Tanner, and Real-Time,
+* hosted by Real-Time.

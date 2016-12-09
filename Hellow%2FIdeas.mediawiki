@@ -1,0 +1,20 @@
+Collin Pruitt's Ideas for Netrek:
+
+Basically freshen up Netrek, but the ideas follow.
+
+* 3 maintained clients or 1 universal client, all supporting Bronco, Sturgon, Chaos, Paradise, INL, etc.
+- There would be one client for each platform, Netrek XP for Windows, COW for Linux, etc.
+* 2 metaservers supporting all gametypes and that drop servers once the server dies
+* Totally new website with totally new content
+* New Mac client that is fully up-to-date with the above content
+* Tutorials that are in plain sight on the Netrek website that are up-to-date and relevant
+* A single clue guide compiled from the multiple ones we have now
+* Better graphics for clients, make the game overall more newbie-friendly
+* Make the game easier to learn, we lose many potential players from the game's hardness
+* Implement things from popular vote from the development and player communities; disband the NIT (personal suggestion)
+* Make full documentation for our client(s) more obvious on the home page
+* Get complete packages into popular Linux distro repositories like Arch, SuSe, Fedora, etc. Regardless of market share, it should still be in their repos.
+* Ubuntu is probably our best bet on publicity in Linux, try to popularize Netrek COW in Ubuntu (I may be able to assist with this)
+* Make a single, large Netrek Archive containing *all* old code
+
+Feel free to cut/paste this wherever needed.

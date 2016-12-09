@@ -1,0 +1,45 @@
+Announcement and Notes on the port of the Netrek Server to the OpenWRT embedded platform.
+==The Announcement from http://www.netrek.org 2006-03-31== 
+*Netrek Server on OpenWrt
+WRT device Smallest and cheapest Netrek Server? One of our developers ported the Netrek Server to [http://openwrt.org/ OpenWrt], the open source router firmware platform, placing a test server on this Asus WL-HDD wireless hard drive box. Mailing list posting below, and at http://mailman.us.netrek.org/pipermail/netrek-dev/2006-March/002859.html
+
+The Netrek Server doesn't require much in the way of computing power, like a good house what it really needs is position. A good position in the network, so that the players have the least lag. This server is so portable you can take it to a LAN party in your pocket.
+Running a 16-player game on the box worked okay, though the lag over the wireless was noticeable. Lag over the wired ethernet connector was between 1ms and 10ms in UDP mode with a 5ms standard deviation. In TCP mode it was between 10ms and 20ms with a 21ms standard deviation.
+The box was easily able to sustain the necessary 300 packets per second for the 16 players, paced at exactly ten updates per second, with ample CPU time to spare. Load average was 0.05 over five minutes, peaking to 0.15 over one minute.
+
+==Mailing List Entry== 
+Here is the mailing list posting linked to above:
+
+Subject: Netrek on a LinkSys WRT54G and Asustek WL-HDD using OpenWrt
+
+From: James Cameron
+
+Date: Thu Mar 30 00:26:32 CST 2006
+
+G'day,
+
+I've ported version 2.10.2 of the Netrek Vanilla Server to run on the
+Broadcom platform used by Link Sys WRT54G and clones, using the Open Wrt
+build tools. My prototype is running on an Asustek WL-HDD2.5, which is 
+a 802.11g wireless 2.5&quot; IDE drive box with a 125MHz processor and 16MB
+RAM. It runs from 5V at 800mA.
+It's really neat to play Netrek against a server small enough to sit in
+the palm of your hand, at a price point comparable to a restaurant 
+drinks bill.
+
+All the files are on http://quozl.linux.org.au/netrek/
+
+* netrek-server-vanilla-2.10.2-openwrt-1.0-rc5.tar.gz is the binary tarball, for unpacking in /mnt/netrek-server-vanilla, then bin/netrekd is run to start the server,
+* netrek-server-vanilla-2.10.2-openwrt-1.0-rc5.patch are the changes necessary to get the code to cross-compile on the OpenWrt 1.0 RC5 build root,
+* netrek-server-vanilla-2.10.2-openwrt-1.0-rc5.src.tar.gz is my work in progress source tree within the build root, for building an ipkg file which is the OpenWrt distribution format.
+A few notes ... 
+# to avoid the need for X and curses, the xsg, pledit, and showgalaxy programs were omitted,
+# to avoid the need for GDBM or GLIB, the player database is not indexed, PLAYER_INDEX is undefined, 
+# to avoid the need for libgmp, the res-rsa support was removed, though clearly this could be added back in later with more effort,
+# the build was done with the assumption of some meaningful filesystem, which could be either NFS, USB, or local disk, according to the OpenWrt device in use,
+# the new multicast server discovery protocol worked fine,
+# load testing isn't complete, but in my first try there was no difficulty handling three or four clients and a few robots ... no reason why it cannot handle 16 clients, but I'll give that a more thorough try later,
+# most of the porting effort was learning the build system and editing down the configure script to remove test programs ... when cross compiling configure cannot run a test program.
+Comments welcome.
+
+James Cameron

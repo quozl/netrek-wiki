@@ -1,0 +1,112 @@
+==Keymap for the MacTrek client== 
+&lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+From: Narcis &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;Subject: Re: hog call &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;To: akb &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;Date: Mon, 20 Nov 2006 17:58:50 +0100 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; Tonite a newbie couldn't figure out how to declare war. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; Interestingly, once T-mode started, he could return fire &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; once his ship had been hit. If he got killed, the new &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; ship also had to be hit first to return fire with torps &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; that would strike. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+Well actually, he can't :-)
+
+&gt; (That seems weird; I would have thought the server would track &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; hostility state and if t-mode was on, client settings wouldn't matter) &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+That is very strange.... i could auto declare war when entering the game, &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;but that seems not what one wants to do.... &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; It'd be cool if you posted the default keymap ... &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+* From the manual (macro's do not work yet): &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+KEY Effect &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+0-9 Set Speed to Warp 0-9 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+) Set Speed to Warp 10 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+! Set Speed to Warp 11 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+@ Set Speed to Warp 12 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+% Set Speed to Warp MAX &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&gt; Increase speed by warp 1 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+&lt; Decrease speed by warp 1 &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+c (Un)Cloak &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+l Lock on object. Sets your course to that object. If it is a planet or a starbase, you automatically dock there once you arrive. &lt;span class=&quot;anchor&quot;&gt; 
+&lt;/span&gt;
+
+t Fire torpedo &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+p Fire phasers &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+u Tractor Beam, pulls target toward you. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+y Pressor Beam, pushes target away from you &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+s Raise / Lower shields &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+i Get information on the player or planet nearest your mouse cursor. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+D Detonate your own torpedo's cause less damage then a full hit, &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;but more damage then a miss &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+d Detonate all enemy torpedo's in a fixed range around your &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;ship. All torpedo's add some damage to you, but less depending on &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;distance &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+k Set course, based on current mouse position &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+* Send in practice robot, or transwarp to starbase (when locked onto one) &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+b Bomb, must be in orbit of planet to bomb &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+o Orbit planet &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+E Send distress call &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+F Send carried armies report &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+e Toggle docking permissions (when in starbase) &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;r Refit to different ship (orbiting home planet) &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+R Shutdown for repairs &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+Q Quit &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+h Help &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+\ Take screenshot &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+====Sending Messages==== 
+&lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+There are several ways to select a destination for the message you &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;wish to send. You can: &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+Select a message in the message list, you wish to reply to &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+Select a player in the player list, you wish to send a message &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;Enter a special key combination, this is the key &quot;m&quot; followed by: &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+Key Destination &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+0-9, a-f Message is sent to the player with that number, if the player exists. &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+t Send a message to your own team &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+A Send a message to all players &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+F Send a message to the Federation players &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+R Send a message to the Romulan players &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+K Send a message to the Klingon players &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+O Send a message to the Orion players &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+
+==more== 
+&lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+From 21-Nov-2006: &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+&gt; looking at the keymap list you sent, I don't see keys to fire plasma, beam up and beam down, or coup? &lt;span class=&quot;anchor&quot;&gt; &lt;/span&gt;
+Oh dear, you found a mistake in the manual :-)though i never tested coup, it may not be in there yet. I'll check. The plasma is f, updown is z/x i just checked it.

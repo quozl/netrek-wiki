@@ -1,0 +1,56 @@
+List of various websites to possibly post to.
+
+== Criteria ==
+Probably the bigger/more popular the site, the better use of our time, so google page rank and hit count are probably useful metrics. For comparison, www.netrek.org has about 15k hits (page rank 5), netrek.org has 26k hits, and playnetrek.org has 3k hits (and a page rank of 4). Playnetrek has excellent SEO results: 5th result for free space battle game, and the first result for those keywords is a site that lists playnetrek.org downloads. 
+
+== New Sites ==
+
+=== Generic gaming sites ===
+* http://www.ebizmba.com/articles/video-games list of top 25 gaming sites. includes:
+** http://www.gamespot.com
+** http://www.ign.com
+
+=== Multiplatform Gamer ===
+====Open Source====
+* osgaming.net has no content at all; the google cache and the site itself just have an apache directory index of an empty directory, which shows the power of links in engine results, as it has a page rank of 5. 
+* http://fossgamer.110mb.com &lt;br&gt; a couple hundred hits, PR 1
+* http://www.cyberpunkcafe.com, page rank 2, but highly placed for &quot;open source games&quot;
+* http://forum.freegamedev.net/ and their wiki
+* [http://www.allegro.cc/ allegro.cc] a site for people using the allegro gaming library. 
+* http://www.ggzgamingzone.org is a meta-gaming system with the capability for players to form games, chat, and observe games. page rank 4, 41k ghits. 
+
+=== Mac games ===
+
+=== Windows games ===
+* http://osswin.sourceforge.net/games.html&lt;br&gt; a list of open source windows games. seems moribund, yet is the top hit for &quot;open source gaming&quot; with a page rank of 6. 
+
+=== Linux games ===
+* http://www.linux-gamers.net/ &lt;br&gt; 70k hits. page rank 3. 
+* http://www.linuxgames.com/ &lt;br&gt; 39k hits. page rank 6. 
+* http://www.happypenguin.org/ &lt;br&gt;37k hits. page rank 6. 
+* http://www.ubuntugames.org &lt;br&gt; In Portuguese. 11.4k hits, rank 5
+* http://freegamer.blogspot.com/ &lt;br&gt; 2.5k hits, rank 5
+* http://www.holarse-linuxgaming.de/ &lt;br&gt; In German. About 6k google hits, rank 3
+* http://linuxgamingworld.com/ &lt;br&gt; 1.1k hits, rank 4
+* http://www.getdeb.net/&lt;br&gt; an ubuntu ancillary package site, for stuff that isn't already in the distro. probably not appropriate, though I guess we could put paradise, brmh, etc. there to generate interest. rank 6. 
+
+=== Star Trek ===
+* [http://memory-alpha.org/en/wiki/Portal:Main Memory Alpha] a star trek oriented wiki. in addition to promotion, we might wish to borrow their stylesheets. 
+* [http://www.trekbbs.com TrekBBS.com]
+* [http://www.trekweb.com trekweb.com]
+* [http://www.all-top-games.com/gamecategories/Star_Trek_games.html star trek games section] top hit for &quot;free star trek game&quot;. Other first page hits include [http://www.freedownloadscenter.com/Games/Strategy_Games/Star_Trek_TNG_Game.html freedownloadcenter]
+* [http://startrek-games.com/ startrek-games.com]
+
+
+== Sites we're already on ==
+
+I expect most of these are due to Joe's efforts. 
+
+* http://www.freedownloadmanager.org/downloads/space_battle_game_software/
+* http://gaming.trekcore.com/netrek/ &lt;br&gt; They'd like more screenshots from us.
+* http://gwos.org/doku.php/games:alphabetical:n:netrek?s &lt;br&gt;
+** I've queried the admin of the wiki as to updating the content of this article. The homepage link is to http://vanilla.netrek.org/ instead of http://netrek.org/ . The screenshots are also of some random server. --[[User:Hellow|Hellow]] 08:32, 7 June 2009 (UTC)
+
+== major gaming sites that probably aren't relevant to netrek ==
+Except inasmuch as they help us understand the gaming marketplace. 
+* pogo.com, yahoo games, MSN games

@@ -1,0 +1,14 @@
+Reference site is http://vanilla.netrek.org/
+
+Feedback goes to the netrek-dev [[Mailing Lists|mailing list]]
+
+Source Packages are at http://quozl.linux.org.au/netrek/ or http://quozl.us.netrek.org/netrek/ or http://www.netrek.org/files/Vanilla/
+
+Debian style trivial repository at http://quozl.linux.org.au/netrek/ use thus:
+
+ echo deb http://quozl.linux.org.au/netrek ./ &gt;&gt; /etc/apt/sources.list
+ apt-get update
+ apt-get install netrek-server-vanilla
+
+Notes
+PRET=1 is probably the config file entry to enable pre-t robots

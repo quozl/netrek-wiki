@@ -1,0 +1,62 @@
+= Definition =
+
+An invitational game, where invitations are made to experienced players to play on a server at a particular date and time.
+
+Other common attributes of clue games are: 
+
+* greater trust and more complex play,
+* greater cohesion and shared goals,
+* invitation by mailing list,
+* a team captain for the session,
+* on-arrival acceptance or rejection of a player,
+* an often long wait until the required number of players have arrived,
+* substitution during a game,
+* use of the [[INL_Mode|INL server mode]] for team selection, timing, pauses, and statistics,
+* recording of the game with download afterwards,
+* statistics on a web page afterwards.
+
+= Current Season =
+
+As of March 2009, clue pickup games are scheduled bi-weekly.  This may be reduced as demand warrants.
+
+If you would like to be notified of when games will occur please see the Google Group:
+[http://groups.google.com/group/netrek-clue-games http://groups.google.com/group/netrek-clue-games]
+
+These games are intended not only as a more strategic arena but also as a training ground for new players that have learned the basics but want a greater challenge, and to improve beyond the [[Pickup_Mode|pickup]] playing style.
+
+Prerequisite skills are:
+
+* message reading, without which the server will reject the player automatically,
+* use of [[RCD]] to call carriers, announce status, etc,
+* basic dog-fighting ability,
+* function within a team,
+* follow directions of a team captain.
+
+Other attributes of this season:
+
+* one timeout per side per game for use as the captain sees fit,
+* draft-based selection of players by team captains to provide for a balanced set of teams,
+* an 8 vs 8 player game; 7 vs 7 is possible if both team captains agree on it and in this case it's common for there to be a no-StarBase rule in effect; smaller games are frowned upon at this time since people could be playing similar on pickup servers,
+* timed games; currently 60 minute regulation period with a single 20 minute sudden-death overtime period if required.
+
+
+Regulation period winning conditions are [[Genocide|genocide]] of one team by another or team lead of at least 11-8-1 at the end of the period.  11-8-1 signifies that the winning team has 11 planets, 1 planet is neutral and the remaining 8 planets are owned by the losing team.  [[Overtime]] is sudden death where the winner is declared to be the team that reaches 11-8-1 first.  Ties are possible in overtime as only a single overtime period is permitted,
+* another option is to use the [[Continuous_Scoring|continuous scoring]] method to determine the winner. Continuous scoring applies weighted values to how fast a team takes planets (or loses them). It was first used in the [http://www.netrek.org/leagues/wnl/ WNL].  If continuous scoring is used instead of planet count the winner is determined by whoever led by enough of a differential. You can also play such that if the continuous score differential is less than 2.0 the game is considered &quot;tied&quot; and will rely on normal planet count to determine the winner. An in-depth explanation of the mechanics of continuous scoring are available [http://groups.google.com/group/rec.games.netrek/browse_thread/thread/9cf03564e3a0208e/0afc35aa590b84ec?lnk=gst&amp;q=continuous+score#0afc35aa590b84ec here].
+
+= Background =
+
+Clue games have been an integral part of Netrek since its birth. Clue games are like regular pickup games except they have a time limit (historically 90 min. with a 10 or 20 min. overtime period and in modern times 60 min. with a 20 min. overtime period) and you cannot twarp (engaging your transwarp drive to go faster than a ship's normal maximum warp - maxwarp - speed) to a starbase. Bronco clue games use the INL server mode. During the 1990s the clue game scene was extremely active. Many universities had one or more teams that played against other teams in the INL (International Netrek League). There used to be a dozen or more clue teams with several seasons of competition per year. In recent years the clue scene is much less vital, but it is still active although team vs team clue pickup games and the clue league is currently on hiatus so as not to detract from nightly pickup games since the playerbase is smaller these days and many clued players have retired from playing.
+
+= Leagues =
+
+The first league was the [[INL]]. There have been other leagues such as the [[WNL]] which experimented with using a continuous scoring method, various draft leagues, [[INHL]] (a hockey league), [[HDL]] (hockey draft league), and a [[Paradise]] clue league.
+
+The rationale for the existence of the [[WNL]] can be found [http://groups.google.com/group/rec.games.netrek/browse_thread/thread/9e505cdf066901e9/9cf529631af78e98?lnk=gst&amp;q=continuous+score#9cf529631af78e98 here]. 
+
+= Teams =
+
+The most recent teams which still are together are:
+* [[ADD]] - Team captain: Charles Huffman (Falcon)
+* [[ANV]] - Team captain: Karthik Arumugham (karthik)
+* [[FMC]] - Team captain: Zachary Uram (Yoda/hyperyoda)
+* [[RCE]] - Team captain: Tseug Larimda (pog)

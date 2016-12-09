@@ -1,0 +1,75 @@
+Welcome to the Netrek Wiki, please sign in and create an account.
+
+Accounts require confirmation before any editing.  Anonymous users are not permitted to edit; they must be logged in and confirmed.  We're doing this because we are a small community and need to protect ourselves from automated attacks.  '''Please use a valid e-mail address during registration.'''  Non-confirmed accounts will not be permitted to edit wiki content.  
+
+Content should remain on-topic.
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the Wiki software.
+
+=New Directions=
+* [[MarketIdeas|Selling the Game]]
+* [[ClientIdeas|Client Ideas]]
+* [[ServerIdeas|Server Ideas]]
+* [[MetaserverIdeas|Metaserver Ideas]]
+* [[Training Mode]]
+* [[FreqOffClevSugg|Frequently Offered Clever Suggestions (FOCS)]] (extremely dated)
+* [[SiteBuilding|Updating the www.netrek.org website]]. 
+** [[NexusHacking]]
+** [[SpoogeFile]]
+
+=Client=
+The client is the program that players use to find a game and play it.
+* [[MetaPoller|Metaserver Poller]]
+* [[ClientIdeas|Ideas]]
+* [[SourceControl|Source Control]]
+* [[Building]]
+* [[ClientInstallDebian|Debian GNU/Linux Installation]]
+* [[MacClientDevNotes|Various notes about the MacTrek client]]
+* [[MacClientKeyMap|Keymap for the MacTrek client]]
+* [[TestConfigurations|Test Configurations]]
+
+=Server=
+The server is the program that all players in a game use, via the internet.
+* [[ServicesList#Game_Servers|List]]
+* [[ServerIdeas|Ideas]]
+* [[SourceControl|Source Control]]
+* [[Building]]
+* [[ServerVanilla]] the common server
+* [[CodingStyle|Coding Style]]
+* [[OpenWrt|Server on an OpenWrt Router]]
+* [[TestConfigurations|Test Configurations]]
+
+= Metaserver =
+The metaserver is a small program running on the internet that keeps a list of active games.  There are three or four metaservers, in case one fails.  The servers keep metaservers informed, in a process called ''soliciting''.  The client program asks for the list when it starts, in a process called ''querying''.
+* [[ServicesList#Metaservers|List]]
+* [[MetaserverIdeas|Ideas]]
+* [[SourceControl|Source Control]]
+* [[ServerSolicitChecklist|Server Solicit Checklist]]
+
+=Administrative= 
+* [[Newbie Mode|How to run a newbie server]]
+* [[ServicesList|Services List]]
+* [[Development Tools]]
+* [[NexusListingPolicies|Policies for listing clients on www.netrek.org]]
+
+=History= 
+* [[History]]
+* [[History/Servers|Servers]]
+* [[History/Timeline|Timeline]]
+* [[History/Ancestors|Ancestors]]
+
+=Clue Games=
+* [[Clue_Game]]
+
+=Gameplay=
+* [[Gameplay/Strategy and Tactics|Strategy and Tactics]]
+* [[Gameplay/CHEAT CODES|CHEAT CODES]]
+
+=Language Translations=
+* [[InfrastructureTranslation|Infrastructure Internationalization Efforts]]
+* [[WikiTranslation|Wiki Internationalization Efforts]]
+
+= Mediawiki Getting started =
+* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
+* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
+* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]

@@ -1,0 +1,16 @@
+* check your ''etc/metaservers'' file against ''docs/metaservers-HowTo'' in the source,
+
+* increase the daemon verbosity and look for solicit references, edit the file ''etc/sysdef'' and set:
+
+ ERROR_LEVEL=9
+
+* daemon will see change immediately,
+* watch the output file with ''tail'':
+
+ tail -f var/ERRORS
+
+* check with ''tcpdump'' that packets are being sent to the metaservers,
+ tcpdump port 3521
+* test with ''metaget'' to see if UDP is let through your infrastructure, it uses UDP to reach the metaserver, and if it can do so then your server should be able to:
+ lib/tools/metaget metaserver.netrek.org
+* coordinate with metaserver owner to have them ''tail -f metalog'' at the same time as you see packets emitted per ''tcpdump''.

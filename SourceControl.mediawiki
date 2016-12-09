@@ -1,0 +1,126 @@
+=Client: Netrek XP 2010= 
+* actively developed,
+* for Microsoft Windows,
+* releases on http://www.netrek.org/,
+* maintainer is Bill Balcerski aka [[User:Modemhero|Modemhero]],
+* in [http://netrek.cvs.sourceforge.net/netrek/client/netrekxp/ SourceForge CVS], checkout with:
+ cvs -z3 -d:pserver:anonymous@netrek.cvs.sourceforge.net:/cvsroot/netrek co netrekxp
+
+=Client: MacTrek (upstream)= 
+* last release 2007,
+* for Mac OS X 10.4,
+* in [http://mactrek.svn.sourceforge.net/viewvc/mactrek/ SourceForge subversion] 
+* releases on [http://mactrek.sourceforge.net/ SourceForge],
+* releases on [http://www.apple.com/downloads/macosx/games/action_adventure/mactrek.html apple.com],
+* mirrored to http://www.netrek.org/,
+* Author &amp; maintainer is Chris Lukassen (Narcis)
+
+=Client: OSXTrek (10.5/Intel Only)=
+* actively maintained
+* for Mac OS X 10.5, Intel
+* in [https://code.launchpad.net/mactrek Launchpad],
+* releases on [https://launchpad.net/mactrek/1.4 Launchpad],
+* Maintainer is Bob Tanner (Basic)
+
+=Client: Gytha=
+* actively developed,
+* for Microsoft Windows, Linux, Mac OS X, or anything that will run Pygame applications,
+* in darcs, [http://james.tooraweenah.com/darcs/netrek-client-pygame/ repository] [http://james.tooraweenah.com/cgi-bin/darcsweb.cgi?r=netrek-client-pygame;a=summary browse],
+* releases on http://quozl.us.netrek.org/gytha/
+* maintainer is [[User:Quozl|Quozl]],
+* 90% functional, is missing little.
+
+=Client: COW=
+* actively developed,
+* for Linux, Mac OS X, or anything that will run X11 applications,
+* in darcs, [http://james.tooraweenah.com/darcs/netrek-client-cow/ repository] or [http://james.tooraweenah.com/cgi-bin/darcsweb.cgi?r=netrek-client-cow;a=summary browse],
+* releases on http://quozl.us.netrek.org/netrek/ ,
+* maintainer is [[User:Quozl|Quozl]],
+* 100% functional,
+* packaging team uses [https://launchpad.net/netrek-client-cow Launchpad].
+
+=Client: Netrek XP Mod= 
+* no longer developed,
+* for Microsoft Windows,
+* not in a version control system,
+* Stas' final (4.4.0.4) source zipfile at [http://netrek.keyos.org/netrekxpsrc-4.4.0.4.zip Stas' page] and on [http://www.netrek.org www.netrek.org]
+* Stas has retired as maintainer.
+
+=Client: BRMH= 
+* semi-actively developed
+* for Linux, Mac OS X, or anything that will run X11 applications,
+* feature-lite, 
+* not in a version control system,
+* releases on SourceForge,
+* mirrored on [http://www.netrek.org www.netrek.org],
+* latest is 2000-03-21, Karthik did an OS X build 2006-12 
+* maintainer is Karthik.
+
+=Client: Paradise 2000=
+* no longer developed,
+* for Linux,
+* closed source,
+* not in a version control system,
+* is expired as of 2008, use the -o option to make it work,
+* was released at [http://www.speakeasy.net/~xyzzy/netrek/ xyzzy's page]
+* maintainer is Trent Piepho (xyzzy).
+
+=Client: Paradise= 
+* semi-actively developed,
+* for Linux and other UNIX based OSes such as Solaris, BSD,
+* in [http://sourceforge.net/projects/paradise/ SourceForge CVS ] 
+* on www? for Ted Turner 1.3.1 (Paradise client 3)
+* [http://ftp.netrek.org/pub/netrek/paradise/client/client-2.4p1B.tar.gz paradise client 2.4p1B] 
+
+=Clients: Not Active= 
+* several inactive projects for netrek client rewrites: 
+** Netrek GL [http://sourceforge.net/projects/netrekgl/ netrekgl] latest mod 2000-10-11 
+** Netrek 3D [http://sourceforge.net/projects/netrek3d/ netrek3d] latest mod 2001-05-31 
+** Spacetrek 3D [http://sourceforge.net/projects/spacetrek/ spacetrek] latest mod 2002-01-27 
+** Netrek NG [http://sourceforge.net/projects/netrekng/ netrekng] latest mod 2006-01-18 
+* there's also a probably different Netrek TNG in Java at [http://www.dtek.chalmers.se/%7Ematso/nttng/download.html http://www.dtek.chalmers.se/~matso/nttng/download.html] died out around 1999. [http://wiki.us.netrek.org/netrek-dev/BR BR] Says it is in CVS on [ftp://ftp.netrek.org ftp.netrek.org]; is it still?
+* Netrek Unlimited,: Netrek Unlimited was a new (Apr 2007) project to do a client in C# and .NET, source is in Subversion at svn://redhorizon.info. read-only access using the anonymous login, no password, Maintainer is ChronosWS/Cliff//
+* Netrek XP 2006 client renamed to Netrek XP 2009 as of April 2008
+** Source zipfiles are on [http://www.netrek.org www.netrek.org] (through v 1.2, 2007-03-05)
+* Netrek XP 2009 client renamed to Netrek XP 2010 as of July 2009
+** Source zipfiles are on [http://www.netrek.org www.netrek.org]
+
+
+= Server: Vanilla = 
+
+* [http://vanilla.netrek.org/ web site]
+* actively developed,
+* for Linux, or other POSIX operating systems,
+* in darcs, [http://www.netrek.org/repos/netrek-server master repository], [http://james.tooraweenah.com/darcs/netrek-server main developer's repository], [http://james.tooraweenah.com/cgi-bin/darcsweb.cgi?r=netrek-server;a=summary browse]
+
+= Metaserver =
+
+* actively developed,
+* for Linux, or other POSIX operating systems,
+* in darcs, [http://www.netrek.org/repos/netrek-metaserver master repository], [http://james.tooraweenah.com/cgi-bin/darcsweb.cgi?r=netrek-metaserver;a=summary browse]
+
+=Misc= 
+
+* Sourceforge also has some bits of old code for Netrek1999/Netrek2000 and RES-RSA, which are also [http://www.netrek.org/files/archive here] 
+* www also has tarballs for: windows brm, jtrek, SWINE, glTrek, old server code, some bots, etc. We actually seem to be missing a fair bit of old code; I see nothing for original xtrek I client or server, unix brm, rick's moo, sgi iris gltrek, or macnetrek (the modem kludge thing); the whole 1988-1993 period seems sparse.
+
+=History= 
+
+Past situation from 2006-06 was that we used darcs repositories for ongoing server development, and commit to CVS only on release. 
+Past situation from 2006-04 was that we began using darcs while continuing to use CVS on [http://wiki.us.netrek.org/netrek-dev/SourceForge SourceForge]. 
+Past situation as of 2006-01 was that we used CVS repositories hosted by [http://wiki.us.netrek.org/netrek-dev/SourceForge SourceForge] on cvs.sourceforge.net, in project netrek, modules server and
+Past situation as of 1998-11 was that we used CVS repositories hosted by Real-Time on cvs.us.netrek.org.  client//.
+
+=www.netrek.org site=
+The web site itself is a darcs repository.
+
+=vanilla.netrek.org web site= 
+
+The web site itself is a darcs repository. The hosting server does not have darcs installed, so to update the patches are applied to a personal repository which is then rsync'd to the hosting server. 
+
+=continuum.us.netrek.org web site= 
+
+The web site itself is a darcs repository, excluding the blog/ directory. 
+
+=metaserver.us.netrek.org web site= 
+The web site itself is a darcs repository.

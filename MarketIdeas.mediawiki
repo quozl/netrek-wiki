@@ -1,0 +1,124 @@
+==marketing== 
+* Market the game against other casual games as on pogo, yahoo, shockwave,
+social networks, etc. Netrek's benefits: free, open, easy to play-&gt; to years
+to master challenge. sold. a real game against the other joker rip offs.
+Market it as an open source project, everyone helps market it, always free,
+but use intelligent marketing ideas to make the game more popular. (search,
+affiliate, viral, many others) (Karim)
+* list on every damn gaming website possible
+** [[GamingWebsites]]
+* word of mouth
+** gamer boards
+** pygame developers
+** wanna-be game programmers
+** star trek boards
+** do retro-gamers care about games they didn't play when younger? is it all nostalgia, or are they really into retro for its own sake?
+** are there gaming or SF cons we can demo at?
+* contact university gaming clubs.
+** In particular, MIT's [http://www.mit.edu/sipb/sipb.html SIPB] and strategic gaming society, CMU's [http://www.cmukgb.org/ KGB] and Berkeley's [http://www.csua.berkeley.edu/ CSUA].
+** Get current client builds and helpful info installed on the MIT athena CMU andrew computer clusters. 
+** Locate other university gaming clubs and get them to do the same or at least to link to [http://www.netrek.org www.netrek.org].
+* linux
+** get into suse.
+*** SuSE market share is limited
+** how does gentoo work?
+** announce to debian and ubuntu users that we exist
+** backports.org
+** olpc
+** integrate with GGZ Gaming Zone using provided libraries
+** Port the netrek server to obscure platforms (routers etc) and get publicity about it
+*** tried that, on [[OpenWrt]], got some publicity, but didn't generate any significant response from the publicity. --[[User:Quozl|Quozl]]
+** fedora / fedora extras
+** EPEL for RHEL / CentOS / Scientific Linux
+** RPMForge
+** mandriva
+*** Mandriva market share is limited
+
+==web site== 
+* redo home page to make downloads absurdly obvious.
+
+==code changes== 
+* audio chat support (can this be done in clients or do we need server mods?)
+** server integration helpful so server admins have the ability of squelching offensive users (racial hate speech, etc)
+* rewrite metaserver to create a lobby system. add basic community features, player picture/profile/url/facebook entry/offline messaging, general before you have joined a game lobby chat, etc. (karim)
+* expand the titles idea of rank. re-imagine DI. give title perks and bonuses &quot;5+ doosh&quot; == &quot;merciless ogger&quot; When you get a 25 doosh you get something better than &quot;You have unlocked the title of &quot;exterminator pooba!&quot; (karim)
+* [[Training Mode|a new player training system]]
+** karthik's newbie ships idea
+** some way to highlight bots servers when they aren't other players around. by hostname, maybe? i.e., newbies.netrek.org ?
+*** bot servers have historically hurt the netrek player base each and every time they've appeared on the metas
+
+===client-side=== 
+** nicer client installers?
+*** xpmod / xp2009 already have installers
+*** installers should *not* default to C:\Netrek as this is competely non-standard
+*** packages should be in C:\Program Files\Foo
+** clients packaged with built-in servers
+*** Mactrek does this already, Quozl has stated it would not be hard for COW
+*** serious consideration needs to be given to crippling these distributed servers to prevent meta spam
+** Update game mechanics in the client. If it is rom/fed, then auto-hide the ori/kli parts on the galactic, zoom on rom/fed. Erase 3rd space all together dynamically. (karim)
+*** bad idea; changes game mechanics as 3rd-spacers will never be seen
+** graphically represent all UI screens (karim)
+*** pygame mostly does
+** in-game pop-up screen explaining rank
+*** as long as emphasis is placed on rank being generally meaningless except as an ego boost
+** Allow on the fly resolution changing. I should be able to play fullscreen, in a window, at any res I want. make the base line 3d or and open graphic standard. (karim)
+*** pygame lib does not allow for this
+** improve XP keymapping interfaces?
+** Toggle buttons. &lt;br&gt; &quot;//Add a control console or toggle buttons for opening status windows, toggling chat-window split, etc. I can't understand the reason why I should need to look through all key bindings to find a function that should (usability-wise) be placed next to the chat window for example.//&quot; (sprawl) &lt;br&gt; Reply from Bill: &quot;//there are keys to do all the things you listed (change message window layout, opening all the subwindows like ping stats, status, planet window, etc). If you don't want to learn the buttons, you can always navigate the options menu and toggle the options that way. Those two methods should be sufficient. There's no screen real estate for toggle buttons for the 40+ options that can be toggled.//&quot; &lt;br&gt; Very unlikely due to the design constraints of current GUI architectures: Put small drag-bars on all small windows inside the client (status, ping, udp, playerlist, help, etc.) and allow them to be dragged outside the main client window. (sprawl)
+** some way to make it more likely for newbies, especially windows newbies, to read and send messages
+*** make it the primary message of the tip box? 
+*** voice announce when a message comes in for that player? (would have to be able to be switched off :)
+*** blinking a big &quot;READ ME&quot; sign over the messaging area periodically?
+*** making the typing area look more like a text entry box; see mac client for example
+*** idea I had last year: make client login/password screens emulate in-game displays, drawing players eyes to text message area and text input area
+* can we get a committee to work out a better default keymap?
+** and we could have a nice printable cheat card to prop next to monitor...
+** keymaps are a very individual setup; general consensus of changes most likely will not be possible
+
+
+===Servers=== 
+* definitely put them in the newbieguide, even though this ups potential maint load on the guide
+* newbie swim/office hours: times when newbies could show up and get obs help
+** once we have things rolling, we could try to rope old clue into helping
+** would newbies show up at a specific time, or are they more likely to trickle in and out? probably not-quite-newbies would show...
+** we probably don't have enough players to warrant this at the moment; newbies will continue to come and go at all times
+* we could use some stats from servers on username/ip profiling; how many of the username/ip combos are common? how many show up only once?
+** with the prevalence of dynamic IP assignments this wouldn't be very accurate.  better perhaps would be player database stats since it tracks player time?
+
+==eye and ear candy== 
+* need free sounds for COW
+* need &quot;box art&quot;
+* decent screenshot library
+* youtube vids
+
+==admin gameplay changes== 
+* push 50fps?
+* someplace besides sturgeon to play at least 6x6 while waiting for humans, with bot commands turned on?
+
+==ads== 
+* advertising Joe E has used:
+** download.com premier
+** download.com basic
+** gamesites200.com
+** pay per click on google
+results on this: &quot; I have focused my efforts primarily on the Windows clients but still see 40-60 click per month on the [http://wiki.us.netrek.org/netrek-dev/MacTrek MacTrek] and Paradise client links I have on my site.&quot;
+
+* Web buttons - Ads: If people was to put web buttons for Netrek onto their personal websites, others may follow suit. Also, we might also want to leverage the great thing that is called Google AdSense. --[[User:Hellow|Hellow]] 08:44, 7 June 2009 (UTC)
+
+==other== 
+* we need to make trash talking unacceptable, including flame wars on all board between experienced players. Even if one of them is being a total sh*thead. sure, some smack talk is inevitable, but cursing at or ejecting newbs is totally uncool, as is trying to piss people off to psych them out.
+** how would policing of message traffic be done?  there is a no-censorship policy on pickled except in the cases of hate speech
+** how to ITA players needs to be made more evident
+*** perhaps a server generated message explaining how to ITA should be sent to new players?
+** I am present more than anyone else; the only time I see a newbie get ejected is when they are dead slots and there is a queue or they are actively and willingly harming their team which is a very rare occurance.  There are occasionally random single votes to eject someone to get them to wake up; but rampant ejects of newbies is not a problem.  If you see it as such, please provide the names and time dates of the occurances so it can be reviewed.  There have been some serious offenders in the past that should know better ejecting newbies but I believe that all of these have been addressed at this time.
+* newsletter. simple signup form on web page. Joe likes http://www.inoutscripts.com php and mysql web-oriented mailing list manager. akb concerned about manpower required to assure consistency of a regular newsletter; Joe advocates committee approach, with different folks volunteering to handle different aspects.
+** we already have numerous mailing lists and web sites; do we *really* need an additional one?
+* RSS, useful tool or distraction? does it reach people who are not otherwise reached?
+** RSS of what?
+* once we have things rolling a bit, try to rope in old clue, perhaps with a &quot;save the game&quot; campaign 
+* find old players, get them to either help newbies out, maybe start a draft league, or at least shake them down for ad money
+** there is no demand for a draft league; we can't even fill bi-weekly clue games
+** Zach says: The Euro Twinks mailing list is still around and anecdotally I see still a fair bit of Euro players (+ assorted other non-North America players). I think a Euro server would help them. If they can get their own pickup scene going again it may lead to Euros again hosting their own vs World clue pickup games. From talking to Euros that are not oldbies most of them stumbled upon netrek by total chance. We need more Euro centric advertizing. And more people in Asia are getting broadband now.
+** would internalization help us get new Asian players?
+* paradise?
+** Many newbies would probably like Paradise more than bronco due to its expanded gameplay, but it teaches bad habits if the newbie ever wants to play bronco. --[[User:Hellow|Hellow]] 08:44, 7 June 2009 (UTC)

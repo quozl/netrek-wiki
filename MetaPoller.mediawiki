@@ -1,0 +1,8 @@
+
+suggestions and such:
+* license
+* scalable size
+* sound
+* flash poller or pop up window when t starts
+
+Is located at:  netrek-forever http://groups.google.com.au/group/netrek-forever/files?hl=en

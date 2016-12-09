@@ -1,0 +1,5 @@
+In this mode, the server maintains 16 players by adding robots. If more human players join, robots leave to make room.
+
+See the file http://netrek.org/repos/netrek-server/Vanilla/INSTALL.Newbie in the ServerVanilla distribution. It shows how to install and set up the server for Newbie mode.
+
+Once set up, the mode can be temporarily turned off by changing etc/sysdef NEWBIE=1 to NEWBIE=0. The change takes effect immediately.

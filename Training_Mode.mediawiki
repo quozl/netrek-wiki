@@ -1,0 +1,119 @@
+(could perhaps be built into a client, but there are lots of clients...)
+
+== concept ==
+
+&quot;If you wanted to make an analogy to netrek, you'd probably do things like just show the keys for warp speeds. The game would also tell you how to move by clicking the right mouse button and setting your speed. Ideally, it'd have little missions for you to accomplish on your own: Get to Romulus in a certain time limit, navigate a circuit, etc. It would then add in things like shields and weapons. Then tractor and pressor beams and then armies. Ultimately your mission would probably be to take over a planet, and doing everything you need to do make that happen.&quot;
+
+== from Quozl ==
+Quozl:
+Right, so let's script it. I've spent some years at a summer camp
+training kids how to play Netrek, and the sequence I use is this;
+
+0. explain that F0 is you, and you are in the centre of the left
+window, and on a map in the right-hand window,
+
+1. start moving, by pressing the number 4, [wait until I can see them
+doing warp 4],
+
+2. lock on to Earth (or race home planet), and if it is off screen ask
+them to use the right-hand window, [wait until I can see them locked
+on],
+
+{Note: I teach them a fatal mistake here, because they become
+predictable, but that's intentional ... I want them to learn why locking
+can be bad ... but later, after a few explosions}.
+
+3. allow the ship to enter orbit, [wait until I can see them in orbit],
+
+4. congratulate,
+
+5. start moving, [wait],
+
+6. lock on to Vega (or corresponding corner planet), very likely to
+have to describe the right-hand window at this point, [wait until I can
+see them locked on],
+
+7. allow the ship to enter orbit, [wait until I can see them in orbit],
+
+8. congratulate,
+
+9. start moving, [wait],
+
+10. use the right-hand mouse button to choose a different direction,
+[wait until I can see them do it a few times],
+
+11. steer to earth but do not lock on, get as close as possible [wait
+until they touch the planet],
+
+12. steer to Vega [wait],
+
+13. increase speed to warp 7, [wait],
+
+14. steer to Earth, [wait]
+
+15. ask them to make a 180 degree turn by slowing down during the turn,
+[wait for less than warp 7 *and* at least 100 degree turn],
+
+etc
+
+== from old wiki ==
+
+Reason
+
+many new players suffer or even fail already with the basics.
+
+Problem
+
+too few human clue servers around to teach new players.
+
+Idea
+
+fill the gap by having the server spill out some basic clues for basic actions for the start, until they meet a human to tell them the advanced stuff.
+
+Server vs. clients
+
+all new players should benefit from it, independent of their client.
+
+Extract from Clue players, sources recommended by Niclas:
+
+http://www.netrek.org/clueguides/kiaclueguide.php
+
+http://www.netrek.org/clueguides/greyelf.php
+
+http://www.netrek.org/cinema2/takefile/
+
+http://www.netrek.org/clueguides/redshirtguides/clueoutlines.php
+
+http://www.netrek.org/clueguides/redshirtguides/advice.php
+
+http://www.netrek.org/clueguides/ogging-101.html,
+
+when necessary also http://www.netrek.org/clueguides/dantesdogfightguide.php, 
+
+also extract from netrek.org random clue database some technically useful items. 
+
+* Send intro info:
+** Keep reading this window as it'll help you in learning the game. 
+** Your enemy for this session is &lt;race&gt;, identified by &lt;color&gt;. Try flying to them and kill them. 
+* Usability: 
+** No cryptic RCD messages with trek-talk (++, ogg, ...), but clear human speak, with additional background info: not **4++** but **4 carries armies and about to attack our planets, kill him** 
+** Disable the following tutor messages and protections **optionally on demand** after a certain rank or when a veteran player approves.
+**approval** has to be defined what it means and how to install/ implement it (technically/ socially).
+* For all low-ranks (ensign) send feedback messages to each meaningful action which signficantly affects gameplay (either good or bad). Examples: 
+** kill: You have earned your first kill. Now go kill more. Only kills count. 
+** death: There's no penalty for dying!!! Dying for the team is good for you, too. ATTACK! (maybe at 1st and only every 5 or 10 deaths
+** beaming down unbombed: Beaming down before bombing to less than 5 is waste of own armies, bomb first.
+** beaming down no take: Beaming down without neuting or taking the planet is good ONLY when a teammate follows up to complete, otherwise wait till you can carry enough to complete the planet in 1 go.
+** butt-torp no fuel/Wtemp/Etemp: running away won't make you win (exception: you're a carrier): face your enemy to help your team.
+** beam up: carry only when you're good enough to defend yourself or have allied escorts to clear the planet for you.
+** get/fire plasma: special weapons are expensive and not of general use. They are mostly good to track cloakers.
+* Reduce noise via message boards:
+** Less or no team messages, definitely no multi-line, warning that this is the case and how to restore full noise mode.
+** private messages only by approved players. (no &quot;guest&quot;, some further conditions)
+** ALL no multilines by default
+
+== From Hellow ==
+
+Perhaps we could just make the server prompt new accounts to confirm if they have read http://netrek.org/beginner/newbie.php ? --[[User:Hellow|Hellow]] 08:35, 7 June 2009 (UTC)
+
+* but we have no way to make the server prompt.  The client prompts. --[[User:Quozl|Quozl]]

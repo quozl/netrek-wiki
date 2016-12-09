@@ -1,0 +1,18 @@
+Intended for developers.  This page describes our standard test configurations.  One for 
+
+= Multiple Systems =
+You have multiple systems available to you?
+
+* configure server on a Linux system,
+* connect to it using Linux, Microsoft Windows, or Mac OS X client systems,
+
+= Single System =
+You have a single system?  Suggestions based on your normal desktop operating system.
+
+'''Windows, Mac OS X'''
+* run a VMware or VirtualBox instance of Debian GNU/Linux in which you install the server package.
+* run client locally connecting to the Debian GNU/Linux instance.
+
+'''Linux'''
+* run server locally, install the package,
+* run client locally, install the package,

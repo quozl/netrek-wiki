@@ -1,0 +1,16 @@
+== Dogfighting ==
+* [http://www.geocities.com/dantes_tb3/ Netrek Dogfighting Strategy] by Tim Brody (Dantes/tb3)
+* [http://cha.rlie.nl/dfmanual/ Beginner's Guide to Dogfighting] by Charlie ter Horst (Zex/WHATEVER)
+* [http://www.cs.cmu.edu/~jch/netrek/dogfighting Dogfighting Manual] by J K Hammond (Lance/raisin)
+* [http://www.shadowhunter.org/clue/ Lots of stuff] by Erik Hietbrink (Shadowhunter)
+
+== Sturgeon ==
+* [http://netrek.beeseenterprises.com/ Sturgeon Guide and FAQ] by Bill Balcerski
+
+== Hockey ==
+* [http://www.ccs.neu.edu/home/jeffno/hockey/beginner.html Netrek Hockey: Beginner's Guide] by Jeffrey Nowakowski
+* [http://www.ccs.neu.edu/home/jeffno/hockey/art.of.puck.html The Ruthless Art o' Puck] by Jon Newton (Ender)
+
+== Paradise ==
+* [http://paradise.netrek.org/primer.html A Paradise Netrek Primer]
+* [http://paradise.netrek.org/howtos/strategy.txt strategy guide]

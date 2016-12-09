@@ -1,0 +1,9 @@
+* [http://en.wikipedia.org/wiki/Darcs Darcs] is a source code management system which uses a decentralised model for tracking changes.  We use Darcs for server, metaserver, and several client source code repositories.
+
+* [http://en.wikipedia.org/wiki/Concurrent_Versions_System CVS] is a source code management system which uses a local or server-client model repository access.  We use CVS for one client.
+
+* [http://en.wikipedia.org/wiki/Linux Linux] is an operating system.  We use Linux for metaserver, servers, development, and testing.
+
+* [http://en.wikipedia.org/wiki/Python_(programming_language) Python] is a computer programming language.  We use Python for testing, and in one of the clients.
+
+* [http://bazaar-vcs.org/ Bazaar] a distributed version control system that Just Works.

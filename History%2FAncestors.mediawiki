@@ -1,0 +1,146 @@
+Ancestors and cousins of Netrek.
+
+= Multiplayer Space Battle =
+
+Remote Terminal and Networked Ancestors and Relatives of Netrek
+
+{| class=&quot;wikitable&quot;
+|-
+! Game 
+! Year 
+! Computer Type 
+! Display 
+! Info 
+|-
+| Empire 
+| 1972 
+| PLATO network 
+| PLATO terminal; downloadable character sets, 512x512 monochrome display 
+| Multi-player with 4 races, torps, phasers, armies and bombing, coups. Played over a nationwide network. Screen updates were manually called for by users, headings for ships and weapons were typed in using compass headings (0 thru 360 degrees). 
+|-
+| Spasim 
+| 1974 
+| PLATO network 
+| PLATO terminal 
+| Probably the first 3D first person perspective game; inspired by Empire. 32 players, 4 teams, torps and phasers, about 1 update/sec. Everything was rendered wireframe-style. First version (March 1974) was combat focused, second version (Nov 1974) was more economic/exploratory. Spasim inspired Airace, which in turn led to Battlezone and computer flight simulators. 
+|-
+| Empire, Tournament Version 
+| 1981 
+| PLATO Network 
+| PLATO terminal (see above) 
+| Enhanced to allow for tournaments, which were held annually 
+|-
+| Conquest 
+| 1982 
+| VAX/VMS 
+| ASCII terminal; 80 characters by 24 lines of monochrome text 
+| Ten updates per second.  Had weapons and engine temp, velocity affected turning speed, max speed for orbiting, ban files. Had a planet eater. 
+|-
+| Trek82 
+| 1982 
+| unix 
+| ASCII terminal (80x24 monochrome, curses package) 
+| 1700 lines of C using a shared file to communicate between players 
+|-
+| Trek83 
+| 1983 
+| unix 
+| ASCII terminal (80x24 monochrome, curses package) 
+| Evolved from Trek82 
+|-
+| ROBOTREK 
+| 1984 
+| unix 
+| ASCII terminal (80x24 monochrome, curses package) 
+| introduction of borgs (robot players). Evolved from Trek83. 
+|-
+| Xtrek 
+| 1986 
+| unix 
+| X Windows, version 10 (X10), typically on a Sun 3/50 
+| integrated Conquest and Trek83/ROBOTREK ideas. Borgs attacked anyone taking 3rd-space planets. Ships could have multiple operators, with different people handling phasers, torps, communication, and steering.
+|-
+| Xtrek III 
+| 1988 
+| unix 
+| X10 
+| introduced player stats and ranks database and also transwarp, had 3 ship types plus design your own, limited galactic view, nukes (also tried in netrek circa 1992). Fuel/Wrench/Army bitmaps for netrek came from here.
+|-
+| Xtrek v. 5.4 
+| ? 
+| unix 
+| X11 
+| a port of Xtrek to X11 that included the ability to limit different races to certain ship types, a feature from Empire. 
+|-
+| Xtrek v. 6.0 
+| 1992 
+| unix 
+| X11 
+| xtrek was fast going extinct (X11 having replaced X10, and netrek and xtrekIII being available) but the main xtrek author released this X11 port. 
+|-
+| nettrek 
+|            
+| Macintosh 
+| MacOS graphics (quickdraw?) 
+| not directly related to netrek; more of a cousin 
+|-
+| Netrek (aka Xtrek II) 
+| 1988 
+| unix 
+| client-server with rendering left to the client. 500x500 tactical and galactic screens, many clients use color but mono operation still possible. 
+| Introduced DI, T-Mode, still had copilots. 
+|-
+|}
+
+
+= Spacewar Family =
+
+Spacewar is one of the grandparents of whole genres of video and computer games. Netrek certainly owes something to it. Here's a list containing some of the other Spacewar derivatives, mostly made for smaller one or two person use. 
+
+One and Two person Netrek Relatives: the Spacewar Ancestry
+
+{| class=&quot;wikitable&quot;
+|-
+! Game 
+! Year 
+! Computer Type 
+! Display 
+! Info 
+|-
+| Space War 
+| 1962 
+| DEC PDP-1 
+| DEC Type 30 CRT display (vector based) 
+| The fourth video game ever written, the second video game ever written for a computer, the first video game of which more than one example ever existed. Computer Joysticks were invented for this game.  Invented the top-down 2D &quot;directional shooter&quot;. Allowed two users to sit in front of it and dogfight.  
+|-
+| The Galaxy Game 
+| 1971 
+| ? 
+| ? 
+| Arcade game; a single-player Spacewar derivative; the first coin-operated videogame. Only one manufactured. 
+|-
+| Computer Space 
+| 1971 
+| custom made boards of TTL chips; no CPU 
+| black and white TV CRT 
+| Arcade game; a Spacewar derivative, the first mass-produced coin-operated videogame. 4 buttons for control. Done by Nolan Bushnell at Nutting Associates, before he founded Atari.
+|-
+| Space Wars 
+| 1977 
+| Cinematronics Arcade platform 
+| black and white vector display 
+| Arcade game; a two-player Spacewar derivative. First vector display coin-op videogame.  Has a pile of game options (gravity, wraparound galaxy, bouncing torps). Five buttons per player (left, right, thrust, shoot, hyperspace) 
+|-
+| Asteroids 
+| 1979 
+| Atari arcade platform 
+| 256x231 point monochrome vector display 
+| Arcade game. Probably the most financially successful Spacewar derivative. Five button control. Introduced &quot;high scores&quot; to arcade games. A distant cousin; not very netrek at all. 
+|-
+| Galactic Attack 
+| 1981 
+| Apple II 
+| 280x192, six colors but game mostly used white on black 
+| Derived from PLATO empire; one person dogfights against the computer. 
+|-
+|}

@@ -1,0 +1,5 @@
+We've developed the following policies for listing clients for download on the Netrek Nexus, [http://www.netrek.org www.netrek.org].
+
+# When a client has a new release, client authors should tell the site admins so that the site listings and/or scripts can be updated
+# For the client authors who upload their own releases, the current release must not ever be altered; swapping a binary out from under the listings page and/or scripts is verboten.
+# Do not upload clients that contain vulgarity, especially in the macros, without discussing it with site admins

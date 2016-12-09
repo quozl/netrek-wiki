@@ -1,0 +1,196 @@
+You would like to build one of the netrek programs from source code?  You'd do this if you want to change how they work, or test improvements.
+
+= netrek-xp =
+* see the file ''compile.txt'' in the source tree.
+
+= gytha =
+* does not need building, just run it.
+
+= netrek-client-cow =
+
+* obtain the source from a repository and run autogen.sh, or obtain the source as a .tar.gz and unpack it, or obtain a distribution source, for example on Debian and Ubuntu:
+  aptitude source netrek-client-cow
+* install build dependencies, for example on Debian and Ubuntu:
+  aptitude build-dep netrek-client-cow
+* configure the source, for example:
+  ./configure
+* compile the source, for example:
+  make
+* install the binaries, for example:
+  make install
+
+(the above last verified on 2012-03-01).
+
+= netrek-server-vanilla =
+
+== Cygwin Building ==
+&lt;pre&gt;netrek vanilla on cygwin
+tumuke, 1 October 2009 (created 25 September 2009)
+
+    * not tagging
+
+    * no tags
+
+Cygwin 1.7 beta
++gcc4 (probably works with gcc3 as well)
++libtool
++make
++libgdbm-devel
++cygrunsvr
++libgmp-devel (optional, also need some rsa tools which the configure probes for)
+
+remove $'s from grep in lines 7222,7223 of configure (optional):
+
+if $GREP ' nm_test_var' &quot;$nlist&quot; &gt;/dev/null; then
+if $GREP ' nm_test_func' &quot;$nlist&quot; &gt;/dev/null; then
+
+
+add to line 607 in config.h.in: || defined(__CYGWIN__) or you will get this on make:
+
+newstartd.c: In function 'main':
+newstartd.c:253: error: too many arguments to function 'setpgrp'
+
+
+install cygserver as service for shared memory, make and install:
+
+/usr/bin/cygserver-config
+configure --prefix=/cygdrive/c/netrek-server-build
+make
+make install
+/cygdrive/c/netrek-server-build/bin/netrekd &lt;/pre&gt;
+
+
+== Autotools Building ==
+* obtain the source from a repository and run autogen.sh, or obtain the source as a .tar.gz and unpack it,
+* install the dependencies as listed in README.developers,
+* configure the source, for example:
+  ./configure --prefix=`pwd`/destdir
+* compile the source, for example:
+  make
+* install the binaries, for example:
+  make install
+* run the server, for example:
+  cd destdir
+  bin/netrekd
+* connect a Netrek client to localhost and play.
+
+'''References'''
+* the file INSTALL in the source tree.
+* the file README.developers in the source tree.
+
+== CMake Building ==
+=== Linux ===
+I recommend you use a pbuilder environment. http://wiki.netrek.org/index.php/Building#debian_or_ubuntu_pristine_building for more details.
+
+Here is an example for building netrek-server-vanilla on Ubuntu Jaunty (same procedure will work on Hardy)
+
+&lt;pre&gt;$ sudo apt-get update
+$ sudo apt-get install cmake darcs
+$ sudo apt-get build-dep netrek-server-vanilla
+$ cd /tmp
+$ darcs get http://james.tooraweenah.com/darcs/netrek-server/
+$ cd netrek-server/Vanilla
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make&lt;/pre&gt;
+
+'''References'''
+* https://answers.launchpad.net/netrek-server/+question/81716
+
+=== OSX ===
+Under OSX I recommend using MacPorts, see http://www.macports.org/install.php for installing MacPorts.
+
+Here is an example of building netrek-server-vanilla on Snow Leopard (same procedure will wok on Leopard)
+
+&lt;pre&gt;$ sudo port -v selfupdate
+$ sudo port install cmake darcs
+$ cd /tmp
+$ darcs get http://james.tooraweenah.com/darcs/netrek-server/
+$ cd netrek-server/Vanilla
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make&lt;/pre&gt;
+
+'''References'''
+* https://answers.launchpad.net/netrek-server/+question/81716
+
+= netrek-metaserver =
+
+* obtain the source from a repository, for example:
+  darcs get http://james.tooraweenah.com/darcs/netrek-metaserver/
+  cd netrek-metaserver
+* compile the source, for example:
+  make
+
+= debian or ubuntu pristine building =
+
+Packaging well requires a pristine build environment, and the Debian way of doing this is with pbuilder.  This example shows how to do a build for netrek-client-cow.  The following is derived from an article by Bob Tanner on our older Wiki.
+
+See [http://packages.debian.org/cgi-bin/search_packages.pl?keywords=pbuilder&amp;searchon=names&amp;subword=1&amp;version=all&amp;release=all pbuilder].
+
+== install pbuilder ==
+
+ $ sudo apt-get update
+ $ sudo apt-get install pbuilder
+
+== customise pbuilder ==
+
+Add info to $HOME/.pbuilderrc 
+
+ MIRRORSITE=http://mirrors.kernel.org/debian sid main non-free contrib
+ OTHERMIRROR=&quot;deb ftp://ftp.real-time.com/linux/real-time sid custom main non-free contrib|deb-src ftp://ftp.real-time.com/linux/real-time sid custom main non-free contrib&quot;
+ EXTRAPACKAGES=fakeroot
+ DEBEMAIL=&quot;First Last &lt;you@domain.com&gt;&quot;
+ BUILDUSERNAME=you
+ BUILDRESULTUID=2000
+ BUILDRESULTGID=2000
+ AUTO_DEBSIGN=yes
+
+* Log into your pbuilder and tell pbuilder any changes made will be saved and rolled back into the .tgz (pristine) tarball. 
+
+ $ sudo pbuilder login --save-after-login
+ Building the build Environment
+ [snip]
+ File extracted to: /var/cache/pbuilder/build/XXXX
+ # vi /etc/apt/sources.lists
+
+* Add the sid deb-src to your sources.list file 
+
+ deb-src ftp://ftp.real-time.com/linux/real-time sid custom main non-free contrib
+ # apt-get update
+ # apt-get dist-upgrade
+ # logout
+ Copying back the cached apt archive contents
+  -&gt; Saving the results, modifications to this session will persist
+ [snip]
+ -&gt; cleaning the build env
+
+* Log back into pbuilder, this time in throw away mode. 
+
+ $ sudo pbuilder login
+ Building the build Environment
+ [snip]
+ File extracted to: /var/cache/pbuilder/build/XXXX
+
+== building ==
+
+* Get the Debian source package, the build dependencies, and the source code itself and compile it 
+
+ # cd /tmp
+ # apt-get update
+ # apt-get build-dep netrek-client-cow
+ # apt-get -b source netrek-client-cow
+
+== result ==
+
+* Normally, I ''scp'' the resulting packages to my main box for debsign-ing and uploading. 
+
+ # apt-get install ssh
+ # cd ..
+ # scp netrek-client-cow* me@mainbox:/tmp
+
+On my main box, I use [http://packages.debian.org/cgi-bin/search_packages.pl?keywords=dupload&amp;searchon=names&amp;subword=1&amp;version=all&amp;release=all dupload] to sign, upload, and process the .deb into a pool hierarchy. I normally make sure the same source .deb compiles on sid, etch, and sarge, so I only 'dpkg-buildpackage -sa' for sid. My etch, sarge pbuilders have deb-src for sid listed above and I just 'dpkg-buildpackage -B' for them to conserve on disk space and bandwidth (for full source uploads).
+
+You can RTFM [http://www.netfort.gr.jp/~dancer/software/pbuilder-doc/pbuilder-doc.html pbuilder manual] for more details.

@@ -1,0 +1,20 @@
+We plan to add internationalization support to Netrek; the server, clients and supporting documentation.  We are looking for volunteers to help us.
+
+= Status =
+
+* XP2009 Tutorial has been [http://wiki.us.netrek.org/index.php/XP2009Tutorial/de translated to German], working currently on [http://wiki.us.netrek.org/index.php/User:Manuel the MacTrek-Tutorial in German], the German Mactrek translation will be transfered to [http://wiki.us.netrek.org/index.php/Mactrekmanual/de]
+* netrek-client-cow has had [http://mailman.us.netrek.org/pipermail/netrek-dev/2009-March/005306.html preliminary support added]; but no translations yet, 
+* design discussions have commenced for [http://mailman.us.netrek.org/pipermail/netrek-dev/2009-March/005314.html changes to the protocol],
+* this Wiki has [[WikiTranslation|automatic translation enabled]].
+
+= Get Involved =
+
+If you are interested in assisting with this please either send a message to the [mailto:netrek-dev@us.netrek.org Development Mailing List] or join us on the Netrek IRC Channel #netrek on irc.freenode.net.
+
+== Translators ==
+
+Needed to translate messages, documentation, or Wiki pages from English to another language.
+
+== Programmers ==
+
+Needed to mark messages in client or server code that need to be translated, and to discuss the protocol changes.

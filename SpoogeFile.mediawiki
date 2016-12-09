@@ -1,0 +1,38 @@
+=INL stuff= 
+==those numbers again== 
+Clue games may be listed on a metaserver. If they aren't, here's the info:
+
+Home Port: 4566
+
+Away Port: 4577
+
+Home Obs: 4000
+
+Away Obs: 5000
+
+Some servers do also have obs on 4567 and 4578 so you can right-click on the metaserver and things will Just Work.
+
+If the server is, say, twink.crackaddict.com, then the windows command to join would be:
+
+&quot;netrek.exe -h twink.crackaddict.com -p 4566&quot; for home team
+
+&quot;netrek.exe -h twink.crackaddict.com -p 4577&quot; for away team
+
+&quot;netrek.exe -h twink.crackaddict.com -p 4000&quot; for home observer
+
+&quot;netrek.exe -h twink.crackaddict.com -p 5000&quot; for away observer
+
+==oops, a pause== 
+person01: I waited in queue at 11est and got in and ghostbusted; i was pissed and didnt try again
+
+person02: We had a timeout around that time and a couple slots ended up leaving. When they did folks in the queue got in as a result, but since the game was in a paused state it would have appeared to them that they had busted when in reality they didn't.
+
+Timeout's and pauses can be confusing if you enter into the game in the middle of one. 
+
+person03: Clue games are a bit different from regular pickup in many ways. If a player busts, we'll generally let that player back in if they come back quickly. Also, sometimes in World vs World games we have to balance slots which requires players to quit and swap. (We could add a swap command, but that would break the nice F0-F7/R8-Rf split that clue games end up with, though perhaps we should just do it anyways since clients can sort.)
+
+Therefore, if you're on the wait queue, we might have to free your slot to let players back in due to the above. The best thing to do is observe the game while you wait on the queue. (Which you should be doing for clueing purposes, anyway..)
+
+person04: I think you came in slot 3 just as that player was trying to get back in the game. You were on the wait queue before him so you came in then your slot was freed so the original player could rejoin. In clue games sometimes a sub (substitution player) will be needed if a player must leave. But if the player had a temporary problem they can rejoin. Think of it like in football if a player gets rattled after a really tough hit and must sit in sidelines for a few minutes but then the coach lets him back in the game.
+
+Note: Is there a way to see who is in queue? And, for that matter, who the team captains are?

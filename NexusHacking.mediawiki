@@ -1,0 +1,144 @@
+=issues and reminders= 
+OK, I (Akb4) have started editing the Nexus content.
+As I run into questions and things to remember, I'm going to list them here so I remember to ask admins about them and follow up.
+
+Topics relating to merging with playnetrek.org: [[PlayNetrekMerge]]
+
+==highest priority== 
+# new logo
+# simplify home page
+# add link to netrek-forever
+# new cow release
+# do we have cow .deb's up? 
+# link to maintainer's debian test packages? http://people.debian.org/~bdefreese/netrek/
+# check mactrek status
+# wiki pointer
+# note second clueserver, twink.netrek.org, (home: 4566, away: 4577, obs: 4000, away obs: 5000)
+# note third metaserver
+
+== normal priority ==
+# search only does files nhp.php knows about; clue files prolly should get added?
+# roll in joe's flash tutorial someplace 
+# add joe's xpmod newbie package as Netrek Classic.
+# look at Joe's dev site on orion for possible changes to roll in
+# add mactrek user manual to beginner/index.php
+# broken images at http://www.netrek.org/leagues/wnl/
+## php errors on team roster links like http://www.netrek.org/leagues/wnl/fall2000/roster/#MD
+# include file so client release info only has to be typed into one file and not four 
+# add ads qualifier for link exchanges.
+# full command and keymapping guide (incl. i and I info, bill's picture of help windows) 
+## a printable cheat sheet or two would be nice
+# suspect clueguides/ogging-101.html is orphaned [akb4 darcs 08-apr-2007]
+# files/ section mods:
+## add to /files downloads: http://sourceforge.net/project/showfiles.php?group_id=968 has 
+### netrek-client-cow-3.2.2.tar.gz aa1c80f9ff9e87ec1feb05f23f79a47f
+### netrek-client-cow-3.2.2.linux-i386-debian-etch.bz2 385e8c41eb3c6f58bd4bb9f02b61aaec. The build is dynamic; &quot; the cow build sequence doesn't have static builds, need help on that.&quot; (quozl). not sure dynamic can be blessed, prolly want static for stability and ease of packaging anyway... [cow on linux has always been dynamic before i took over, i have tried asking trent how he builds paradise2000 as static but he did not answer - quozl]
+## probably should also add a few other source tarballs to the files section; the sourceforge Vanilla releases, a current metaserver tarball, mactrek
+## Note: akb has no access to /files except for Mactrek area. So he can't add the above.
+# narcis requests:
+## downloads/clients page news page moved to SF http://sourceforge.net/news/?group_id=165507
+## I'd love it if people would start posting bugs through http://sourceforge.net/tracker/?group_id=165507 maybe a hint will help [noted on downloads/clients/index.html]
+## what is really cool is that [http://wiki.us.netrek.org/netrek-dev/MacTrek MacTrek] now supports voice commands, so you can shoot shields up at your computer and if it grasps your accent it will do that (or in my case cloak for some reason  noted on downloads/clients/index.html] 
+# download stats. akb asked joe 26-may-2007.
+# run down and add nokia client
+# grab source at http://www.codeplex.com/NetrekClient
+# copy stats table from http://stats.psychosis.net/key.html to netrek.org
+
+==somewhat nice== 
+# archive local content of relevant sites (w/permission)
+## Shadowhunter (people section)
+## anything else from links section?
+## article in the about section
+## flash tutorials from playnetrek 
+# credits.php
+# ok, copied bumper2.gif and wnl_logo.jpg, now need to use them someplace
+# figure out which rss feeds are a going concern; a few have had no traffic in a year or two
+# add mac vid trailers to cinema2 section 
+# quick clean up of lance's dogfight guide
+# is any one of the three (charlie, dante, lance) notably better? do we want to push one of them more?
+# how do you do a password change on a server? password recover? (prolly not release critical) 
+# INL guide is a bit stale
+# forgot some geno clueguides: 
+## ./clueguides/at_large_strategy_guide.txt 
+## ./clueguides/base_ogg_guide.txt 
+## ./clueguides/dogfighting.txt 
+## ./clueguides/fighting_the_message_to_reread.txt 
+## ./clueguides/how_to_kill_a_sb.txt 
+## ./clueguides/how_to_orbit_a_planet.txt 
+## ./clueguides/sc_bmbing.txt 
+# log irc channel 
+
+==not critical, but would be good== 
+# glossary cleanup (is ok-ish now; perhaps do more when wikified...) 
+# netrekrc options guide 
+# window placement guide 
+# command line guide 
+# playerlist guide 
+# cambot guide 
+# beeplite guide. (which clients support beeplite?) 
+# inl stats guide 
+# is a rewrite of the old faq worth it? seems pretty dated. Probably should just add ref copy to history section, see if there's anything there to include elsewhere 
+# add cambot helper and clue game connect source, once Joe E. posts 
+# permission denied error for [ftp://ftp.netrek.org/pub/netrek/mirrors/stuff/ ftp.netrek.org/pub/netrek/mirrors/stuff/] , mirrors/risc/, mirrors/info 
+# grab more clue stuff from [ftp://ftp.netrek.org/pub/netrek/mirrors/ ftp.netrek.org/pub/netrek/mirrors/]
+# get inl/statboy and wnl/ moved from geno [akb4 asked dave and quozl 05-apr-2007, again 25-may-2007; akb moved part of each, but parts are missing]. OK, as of 20-Jun, geno copy is 98M, www copy is 94M, a dozen directories in the geno version are not world readable, so we probably don't need them. 
+# link to web-irc gateway. hosting our own seems like an abuse magnet. 
+
+==copious free time== 
+# fix the facefiles
+# figure out what to do with geno/cow, aka cow.netrek.org
+
+==Leave No Page Behind!== 
+urls from geno that should be redirected and/or have content nabbed:
+* ./brmh/index.html
+* ./sticker.html
+* ./humor/ ? 
+
+==settled for now== 
+# The mailto has to be changed. I think the best new mailto would be a mailing list for the webmasters. I'm tentatively changing the links to netrek - web on netrek.org.
+** 1.answer: Quozl believes mailto unneeded but says if we're determined, we could ask Bob for another mailing list. Best short-term approach probably to set up my own alias and see if it in fact gets spammed all to heck. Or just avoid. Psychosis points out that a webform would be nicer and not have a spam problem; we'd need to work out the coding issues; what would From line be and where would it send the mail to?).
+# Address obfuscation. Since we'd want anyone to be able to send mail to the webmaster mailing list without being on it, we'll need to obfuscate the address to slow down the spammers. What are the current best practices for this? Does ISO or hex conversion (as on http://www.seowebsitepromotion.com/obfuscate_email.asp still work? We could do a graphic, but that's kind of gross. 
+## do graphics for the addresses for the client maintainers. [done, akb4 ~17-mar-2007]
+
+==punted== 
+# download links. Remember to make symlinks for the client downloads. Addys I'm using in downloads/clients/ include: current-cow-linux, current-paradise-2000, current-mactrek, current-xp-2006, NetrekXP4404_installer.exe. Gotta upload the current clients and make the symlinks. Does these need to be renamed to use .exe, .dmg, .tar.gz? 
+## yeah, and need to get bill and xyzzy to add symlinks, and create and populate a mactrek dir. 
+## ok, Dave Ahn says no symlinks because it has been an issue in the past with browser caches. 
+
+==done== 
+# Which clients have the login screen mouse focus issue, wherein one must have the mouse in the upper-left screen segment to have focus for typing in the login and passwd? 
+## answer: the whole COW family, which means everything except the mac
+# Which clients need mouse focus to scroll the MOTD window? 
+## as above; all COW derivs
+# How does the mac handle metaservers? how do you enter obs mode if you have a one-button mouse? 
+## Psychosis says mac doesn't do obs mode yet. 
+# finish labeling macintosh screenshot 
+# does windows tip menu now have clue on how to close window with a two-button mouse? how about no more tip window option? 
+## it's the second tip shown. it's now in the newbie guide. it can also be removed with the unmap special windows key, the options menu, the netrekrc showHints setting, and a button in the config utility 
+# mactrek client info: 
+## does mactrek show the motd? 
+### no. 
+## does it have a macro facility? rcd munging? playerlist? any command line options? 
+### as of 1.2 plans (2-apr-2007) no macros, no command line options, no playerlist config, and some RCD support is planned 
+## can you obs by forcing port choice someplace? 
+### not as of 1.1, suggested, unclear if this will make 1.2 
+## command/remap and macros and messaging guides should be mac-complete. more screenshots not a bad thing. 
+# I need to know NPH_LOC_FILEROOT. In the orig files, it's /var/www/[http://genocide.netrek.org/ genocide.netrek.org/] but for production, what will it be?
+## Relative addressing is better. Make sure the php don't break.
+## ok, not sure the FILEROOT and WEBROOT can be made relative without my actually learning something about php. I'll try break those out to a seperate config file that can be unique to each server. Might be able to figure out a way to get hostname from the server to do an if/then decision about what values to use. Gross, but this is supposed to be a short-term (&lt;1 year) solution; if we run longer, we can fix it in the future. [akb4 29-mar-2007]
+## Quozl cons'd up an improved set_my_root.php with an if clause for each host. Gross, but it'll work. [akb4 02-apr-2007]
+# are old client builds going to still live in downloads/clients, or do I have to change the links? 
+## still in downloads/clients. (note: should perhaps copy or link them from files...) 
+# (sysadmin) figure out how we're gonna do the big turnover (including synchronizing such that it can be vetted for broken links as soon as it goes up) 
+## We're Live! [akb 03-apr-2007] 
+# php. Dave says he's pulling php4 from the server. Is code php5 friendly? 
+## should be; we'll see! 
+## yep, we're cool 
+# server config. There is both an index.html and an index.php. Does index.html get used for anything? Nothing on the top level links to it... 
+## renaming it out of the way; otherwise web servers grabs .html before .php, which is kinda gross. Maybe index.html files are from some web server config that was too dumb to grab index.php if there was no index.html. 
+## web server config does indeed grab html first. top level index.html deleted; don't think there were any others, should check original find(1) to make sure. 
+## ok 
+# edit server list and newbie pages to reflect that pulsar-zone is gone 
+# web server config properly handles .tar.gz but not .gz; downloads file into browser window [akb4 asked dave and quozl 05-apr-2007, again 25-may-2007] [quozl sees fix claim by dave, confirm this is fixed now?] 
+# spell check (ok, didn't do dantes, or unlinked pages (quickstart, 2005-*); did the rest)
+# add python client
